@@ -75,6 +75,4 @@ Medic is populated with data that is sourced from the following resources:
 - Dynamic infection and death counts(India) are sourced from Ministry of Health and Family Welfare Page:https://www.mohfw.gov.in/#
 - Dynamic news stories are sourced from Watson Discovery's news feed. Additional information on that service can be found here: https://www.ibm.com/watson/services/discovery-news/
 
-## License
 
-This solution starter is made available under the [Apache 2 License](LICENSE).
