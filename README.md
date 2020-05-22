@@ -2,6 +2,7 @@
 This project provides an insight to the chatbot created to provide solution for Covid-19 Crisis.
 
 ## Authors
+Team Name - _init_iators
 - [Aditi Deepak](aditi.dpk17@gmail.com) - Team Leader
 - [Devendra Singhi](singhidevendra0298@gmail.com)
 - [Harshit Harsh](hharshit27@gmail.com)
@@ -46,6 +47,8 @@ It can:
 9. IBM Cloud Function calls the COVID-19 API to get statistics.
 10. Watson Assistant replies to the Slack application.
 11. Slack app displays the chat answer to the user.
+
+The invite link to the Slack workspace: https://join.slack.com/t/crackcovid19-watson/shared_invite/zt-epg5ln4h-SE7kLoKkTOtvLoLsiyUHMg
 
 ## Documents
 
