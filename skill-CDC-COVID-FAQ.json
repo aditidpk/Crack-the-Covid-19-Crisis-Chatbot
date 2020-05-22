@@ -1,0 +1,6275 @@
+{
+  "intents": [
+    {
+      "intent": "HealthDeptRecommendedActions",
+      "examples": [
+        {
+          "text": "can CDC help my local board of health"
+        },
+        {
+          "text": "does CDC provide protocols for labs to test covid-19?"
+        },
+        {
+          "text": "What should healthcare professionals and health departments do?"
+        },
+        {
+          "text": "can CDC help my local health dept get protective gear?"
+        },
+        {
+          "text": "Health dept recommended actions"
+        },
+        {
+          "text": "how do I ship a specimen to the CDC lab?"
+        }
+      ],
+      "description": "Recommended actions by from the Health Dept"
+    },
+    {
+      "intent": "Symptomsinchildren",
+      "examples": [
+        {
+          "text": "Symptoms in children"
+        },
+        {
+          "text": "Are the symptoms of COVID-19 different in children than in adults?"
+        },
+        {
+          "text": "do children react differently to the virus than adults do?"
+        },
+        {
+          "text": "do kids get different symptoms?"
+        },
+        {
+          "text": "what are the symptoms in children?"
+        }
+      ],
+      "description": "Signs and symptoms in children and differences from adults"
+    },
+    {
+      "intent": "Wherediditstart",
+      "examples": [
+        {
+          "text": "which location did corona virus start from?"
+        },
+        {
+          "text": "Where did corona virus originate from?"
+        },
+        {
+          "text": "Where did covid-19 originate?"
+        },
+        {
+          "text": "Where did corona originate?"
+        },
+        {
+          "text": "Where did it originate?"
+        },
+        {
+          "text": "What is the source of the virus?"
+        },
+        {
+          "text": "Where did it start"
+        }
+      ],
+      "description": "Handle questions about the origins of the virus in humans"
+    },
+    {
+      "intent": "HigherRiskPopulations",
+      "examples": [
+        {
+          "text": "Do seniors need to take extra precautions?"
+        },
+        {
+          "text": "I am over the age of 60."
+        },
+        {
+          "text": "I have a chronic illness."
+        },
+        {
+          "text": "I have underlying health issues."
+        },
+        {
+          "text": "What does immunocompromised mean? "
+        },
+        {
+          "text": "Who is at higher risk for serious illness from COVID-19?"
+        },
+        {
+          "text": "Why do Boomers get sick? "
+        },
+        {
+          "text": "Who is dying? "
+        },
+        {
+          "text": "Why are people with pre-existing conditions more at risk?"
+        },
+        {
+          "text": "Are all the old people going to die? "
+        },
+        {
+          "text": "Are older adults more likely to contract the disease?"
+        },
+        {
+          "text": "Can Gen-X get sick? "
+        },
+        {
+          "text": "Can Millennials get it? "
+        },
+        {
+          "text": "Does  Corona Virus (COVID-19) affect older people more?"
+        },
+        {
+          "text": "Does Gen-Y get it?"
+        },
+        {
+          "text": "Higher risk populations"
+        },
+        {
+          "text": "How does it affect immunocompromised people? "
+        },
+        {
+          "text": "How does this impact the elderly? "
+        }
+      ],
+      "description": "Identify which populations are at higher risk"
+    },
+    {
+      "intent": "AboutHospitals",
+      "examples": [
+        {
+          "text": "hospitals?"
+        },
+        {
+          "text": "where should I go?"
+        },
+        {
+          "text": "Where to get tested?"
+        },
+        {
+          "text": "Where are the hospitals?"
+        }
+      ],
+      "description": "Someone wants to know the information about hospitals."
+    },
+    {
+      "intent": "RiskToPets",
+      "examples": [
+        {
+          "text": "Can corona virus affect the pets?"
+        },
+        {
+          "text": "Risk to pets"
+        },
+        {
+          "text": "Should I be concerned about pets or other animals and COVID-19?"
+        },
+        {
+          "text": "Are my pets in risk?"
+        },
+        {
+          "text": "Is there any danger to pets?"
+        }
+      ],
+      "description": "Guidance on potential risk to Pets"
+    },
+    {
+      "intent": "AttendingFuneral",
+      "examples": [
+        {
+          "text": "Should I avoid funerals?"
+        },
+        {
+          "text": "Am I at risk if I go to a funeral or visitation service for someone who died of COVID-19?"
+        },
+        {
+          "text": "Can I go to a funeral? "
+        },
+        {
+          "text": "Can I go to a funeral of someone who died of  Corona Virus (COVID-19)?"
+        },
+        {
+          "text": "Are funerals safe? "
+        }
+      ],
+      "description": "Funeral attendance guidance"
+    },
+    {
+      "intent": "warmerweather",
+      "examples": [
+        {
+          "text": "will the virus go away during warmer months?"
+        },
+        {
+          "text": "warmer weather"
+        },
+        {
+          "text": "Will warm weather stop the outbreak of COVID-19?"
+        },
+        {
+          "text": "i heard the spread will slow down in warmer months"
+        },
+        {
+          "text": "does it get less contagious in the summer?"
+        }
+      ],
+      "description": "Does warmer weather or summer weather have an effect on the virus or the pandemic"
+    },
+    {
+      "intent": "ChildrenAndFaceMasks",
+      "examples": [
+        {
+          "text": "can my child play outside without a mask?"
+        },
+        {
+          "text": "are facemasks recommended for children"
+        },
+        {
+          "text": "Should children wear masks?"
+        },
+        {
+          "text": "does my daughter need to wear a facemask?"
+        },
+        {
+          "text": "Children and facemasks"
+        }
+      ],
+      "description": "Guidance regarding Children wearing Facemasks"
+    },
+    {
+      "intent": "DataSource",
+      "examples": [
+        {
+          "text": "Where did you learn this?"
+        },
+        {
+          "text": "Are you sure?"
+        },
+        {
+          "text": "Is this information accurate?"
+        },
+        {
+          "text": "How do you know this?"
+        },
+        {
+          "text": "Where do you get your information?"
+        },
+        {
+          "text": "Is this true?"
+        }
+      ],
+      "description": "Information on where this bot sourced it's data"
+    },
+    {
+      "intent": "spreadinquarantine",
+      "examples": [
+        {
+          "text": "does putting infected people into quarantine help?"
+        },
+        {
+          "text": "what is a quarantine?"
+        },
+        {
+          "text": "what is the incubation period of this corona virus?"
+        },
+        {
+          "text": "Can someone who has been quarantined for COVID-19 spread the illness to others?"
+        },
+        {
+          "text": "does quarantining people stop the spread of corona virus?"
+        },
+        {
+          "text": "spread in quarantine"
+        }
+      ],
+      "description": "does quarantining people stop the spread of corona virus?"
+    },
+    {
+      "intent": "PrepareFamily",
+      "examples": [
+        {
+          "text": "should my household plan ahead?"
+        },
+        {
+          "text": "what goes into a family emergency plan?"
+        },
+        {
+          "text": "how do I prepare my household in case corona virus hits my community?"
+        },
+        {
+          "text": "How can my family and I prepare for COVID-19?"
+        },
+        {
+          "text": "Prepare family"
+        }
+      ],
+      "description": "Family Preparation Guidance"
+    },
+    {
+      "intent": "News_Corona_Virus",
+      "examples": [
+        {
+          "text": "corono virus news in India"
+        },
+        {
+          "text": "updates"
+        },
+        {
+          "text": "updates on corona"
+        },
+        {
+          "text": "corona updates"
+        },
+        {
+          "text": "corono updates in India"
+        },
+        {
+          "text": "latest news on corona virus"
+        },
+        {
+          "text": "What is in the NEWS?"
+        },
+        {
+          "text": "whats happening"
+        },
+        {
+          "text": "NEWS"
+        },
+        {
+          "text": "Whats happening?"
+        },
+        {
+          "text": "News on Corona"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CDC_Response",
+      "examples": [
+        {
+          "text": "What is the center for disease control doing to help?"
+        },
+        {
+          "text": "How is CDC helping Americans prepare?"
+        },
+        {
+          "text": "What is CDC doing about COVID-19?"
+        },
+        {
+          "text": "Does CDC work to protect public health?"
+        },
+        {
+          "text": "CDC response"
+        }
+      ],
+      "description": "Info about the CDC"
+    },
+    {
+      "intent": "Wearingfacemasks",
+      "examples": [
+        {
+          "text": "Do face masks do anything?"
+        },
+        {
+          "text": "Someone in my household is sick should we wear masks at home?"
+        },
+        {
+          "text": "Wearing face masks"
+        },
+        {
+          "text": "Should my child wear a face mask?"
+        },
+        {
+          "text": "Should I wear a face mask?"
+        },
+        {
+          "text": "Should I use a face mask when in public?"
+        },
+        {
+          "text": "Does CDC recommend the use of facemask to prevent COVID-19?"
+        },
+        {
+          "text": "Do I need to wear a face mask?"
+        },
+        {
+          "text": "What do face masks do? "
+        }
+      ],
+      "description": "General facemask questions"
+    },
+    {
+      "intent": "Whythename",
+      "examples": [
+        {
+          "text": "why was covid-19 used to name this disease?"
+        },
+        {
+          "text": "is corona virus the same as covid-19?"
+        },
+        {
+          "text": "Why is the disease being called coronavirus disease 2019, COVID-19?"
+        },
+        {
+          "text": "why is covid-19 the name for this disease?"
+        },
+        {
+          "text": "Why the name"
+        },
+        {
+          "text": "is covid an abbreviation?"
+        }
+      ],
+      "description": "Answer how the name for this virus and disease arose."
+    },
+    {
+      "intent": "InfectedFamilyMember",
+      "examples": [
+        {
+          "text": "What should I do if someone in my house gets sick with COVID-19?"
+        },
+        {
+          "text": "Infected family member"
+        },
+        {
+          "text": "what do i do when someone in my home gets it?"
+        },
+        {
+          "text": "my roommate has corona virus what should I do?"
+        },
+        {
+          "text": "do I need to quarantine ill family members?"
+        }
+      ],
+      "description": "Guidance if a Family Member is infected"
+    },
+    {
+      "intent": "Phases",
+      "examples": [
+        {
+          "text": "Phases"
+        },
+        {
+          "text": "Phases of lockdown"
+        },
+        {
+          "text": "What are the phases of lockdown"
+        },
+        {
+          "text": "Different phases of lockdown"
+        },
+        {
+          "text": "Different phases"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Schoolfromhome",
+      "examples": [
+        {
+          "text": "I need tips for at home learning"
+        },
+        {
+          "text": "School from home"
+        },
+        {
+          "text": "Tips for my child's schedule when school is canceled."
+        },
+        {
+          "text": "While school’s out, how can I help my child continue learning?"
+        },
+        {
+          "text": "how do I keep my child engaged in schoolwork?"
+        }
+      ],
+      "description": "Conducting remote education while school is dismissed"
+    },
+    {
+      "intent": "Stigmatizedgroups",
+      "examples": [
+        {
+          "text": "Why might someone blame or avoid individuals and groups (create stigma) because of COVID-19?"
+        },
+        {
+          "text": "What causes stereotyping and blame?"
+        },
+        {
+          "text": "are Asian people being unfarely blamed for corona virus?"
+        },
+        {
+          "text": "is the pandemic causing discrimination against Chinese people?"
+        },
+        {
+          "text": "Stigmatized groups"
+        }
+      ],
+      "description": "About racial discrimination or shaming"
+    },
+    {
+      "intent": "PositiveAnswers",
+      "examples": [
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Haa"
+        },
+        {
+          "text": "Ye"
+        },
+        {
+          "text": "Ya"
+        },
+        {
+          "text": "Yay"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HandwashingTips",
+      "examples": [
+        {
+          "text": "handwashing products"
+        },
+        {
+          "text": "is hand sanitizer effective against covid-19?"
+        },
+        {
+          "text": "How to prevent Corona?"
+        },
+        {
+          "text": "will frequent handwashing help?"
+        },
+        {
+          "text": "how do i wash my hands correctly?"
+        },
+        {
+          "text": "Should I use soap and water or a hand sanitizer to protect against COVID-19?"
+        },
+        {
+          "text": "should i keep washing my hands"
+        },
+        {
+          "text": "Handwash"
+        },
+        {
+          "text": "Hand wash"
+        },
+        {
+          "text": "will washing my hands help protect me?"
+        },
+        {
+          "text": "Handwashing tips"
+        }
+      ],
+      "description": "Hand Washing Guidance"
+    },
+    {
+      "intent": "MealsForStudents",
+      "examples": [
+        {
+          "text": "While school’s out, will kids have access to meals?"
+        },
+        {
+          "text": "will school students be able to get their free meals?"
+        },
+        {
+          "text": "are schools continuing to serve school lunch plans even if classes are closed?"
+        },
+        {
+          "text": "Meals for students"
+        },
+        {
+          "text": "how are students on school lunch plans getting their meals?"
+        }
+      ],
+      "description": "Info regarding school and student meals"
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "toodles"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thanks watson"
+        },
+        {
+          "text": "talk to you later"
+        },
+        {
+          "text": "talk to you soon"
+        },
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "youre welcome now bye"
+        },
+        {
+          "text": "no thank you"
+        },
+        {
+          "text": "thank you for the info"
+        },
+        {
+          "text": "sorry got to go"
+        },
+        {
+          "text": "take it easy"
+        },
+        {
+          "text": "take care"
+        },
+        {
+          "text": "soon"
+        },
+        {
+          "text": "so long"
+        },
+        {
+          "text": "signing out"
+        },
+        {
+          "text": "signing off"
+        },
+        {
+          "text": "gtg"
+        },
+        {
+          "text": "gotta run"
+        },
+        {
+          "text": "gotta go"
+        },
+        {
+          "text": "gday"
+        },
+        {
+          "text": "good day"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "go"
+        },
+        {
+          "text": "farewell"
+        },
+        {
+          "text": "cya"
+        },
+        {
+          "text": "catch ya later"
+        },
+        {
+          "text": "bye now"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "au revoir"
+        },
+        {
+          "text": "adios"
+        },
+        {
+          "text": "adieu"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "g'day"
+        },
+        {
+          "text": "i'm leaving"
+        },
+        {
+          "text": "no problem"
+        },
+        {
+          "text": "laters"
+        },
+        {
+          "text": "leave"
+        },
+        {
+          "text": "logging off"
+        },
+        {
+          "text": "my time is up"
+        },
+        {
+          "text": "ok bye"
+        },
+        {
+          "text": "out of time"
+        },
+        {
+          "text": "over and out"
+        },
+        {
+          "text": "run"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "see ya later"
+        },
+        {
+          "text": "see ya soon"
+        },
+        {
+          "text": "shut up"
+        },
+        {
+          "text": "thanks for your help"
+        },
+        {
+          "text": "be quiet robot"
+        },
+        {
+          "text": "done"
+        },
+        {
+          "text": "dont need your help at all"
+        },
+        {
+          "text": "good bye hohoho"
+        },
+        {
+          "text": "goodbye joto"
+        },
+        {
+          "text": "got to go bye nice time talking to you"
+        },
+        {
+          "text": "gtg go right now ok"
+        },
+        {
+          "text": "stop"
+        },
+        {
+          "text": "ok thank you"
+        },
+        {
+          "text": "ok thank you for your time"
+        },
+        {
+          "text": "ok thanks"
+        },
+        {
+          "text": "o thank u"
+        },
+        {
+          "text": "i am done with you"
+        },
+        {
+          "text": "bye im going to play a game"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "ty"
+        },
+        {
+          "text": "ttyl"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "then bye"
+        },
+        {
+          "text": "should go"
+        },
+        {
+          "text": "should be going"
+        },
+        {
+          "text": "see you later"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "later"
+        },
+        {
+          "text": "im leaving"
+        },
+        {
+          "text": "have a good one"
+        }
+      ]
+    },
+    {
+      "intent": "ReportingToWork",
+      "examples": [
+        {
+          "text": "will my office be closed?"
+        },
+        {
+          "text": "Reporting to work"
+        },
+        {
+          "text": "I'm supposed to work but my child's school is canceled"
+        },
+        {
+          "text": "what are my work from home options?"
+        },
+        {
+          "text": "Should I go to work if there is an outbreak in my community?"
+        }
+      ],
+      "description": "Guidance on going in to work"
+    },
+    {
+      "intent": "Symptoms",
+      "examples": [
+        {
+          "text": "is fever a sign of this infection?"
+        },
+        {
+          "text": "does covid-19 cause fever?"
+        },
+        {
+          "text": "Symptoms"
+        },
+        {
+          "text": "does covid-19 cause coughing?"
+        },
+        {
+          "text": "what symptoms should I watch for?"
+        },
+        {
+          "text": "What are the symptoms and complications that COVID-19 can cause?"
+        }
+      ],
+      "description": "General info on symptoms of covid-19 disease"
+    },
+    {
+      "intent": "WhatisCovid",
+      "examples": [
+        {
+          "text": "what is carona virus?"
+        },
+        {
+          "text": "What is SARS-CoV-2?"
+        },
+        {
+          "text": "Where was  Corona Virus (COVID-19) first spotted."
+        },
+        {
+          "text": "Why did  Corona Virus (COVID-19) spread?"
+        },
+        {
+          "text": "What is Covid"
+        },
+        {
+          "text": "What is COVID 19?"
+        },
+        {
+          "text": "How did the  Corona Virus (COVID-19) spread from China?"
+        },
+        {
+          "text": "covid 19"
+        },
+        {
+          "text": "Carona Virus"
+        },
+        {
+          "text": "What is a novel coronavirus?"
+        },
+        {
+          "text": "When did  Corona Virus (COVID-19) start?"
+        },
+        {
+          "text": "When did  Corona Virus (COVID-19) appear?"
+        },
+        {
+          "text": "Where did  Corona Virus (COVID-19) appear?"
+        }
+      ],
+      "description": "Description and definition of COVID19"
+    },
+    {
+      "intent": "PersonToPerson",
+      "examples": [
+        {
+          "text": "Can  Corona Virus (COVID-19) spread from person-to-person?"
+        },
+        {
+          "text": "Why is  Corona Virus (COVID-19) spreading between people?"
+        },
+        {
+          "text": "Why is it so contagious?"
+        },
+        {
+          "text": "Who can I get it from?"
+        },
+        {
+          "text": "person to person"
+        },
+        {
+          "text": "How does  Corona Virus (COVID-19) spread?"
+        },
+        {
+          "text": "Can someone who has had COVID-19 spread the illness to others?"
+        },
+        {
+          "text": "Can I catch it from my friend?"
+        }
+      ],
+      "description": "Info on how Coronavirus spreads person to person"
+    },
+    {
+      "intent": "RiskToChildren",
+      "examples": [
+        {
+          "text": "Risk to children"
+        },
+        {
+          "text": "What is the risk of my child becoming sick with COVID-19?"
+        },
+        {
+          "text": "do children catch covid-19?"
+        },
+        {
+          "text": "Can corona virus infect an infant?"
+        },
+        {
+          "text": "Are kids at increased risk of infection?"
+        },
+        {
+          "text": "Are children at higher risk of getting sick?"
+        }
+      ],
+      "description": "Guidance on potential risk to Children"
+    },
+    {
+      "intent": "NegativeTestResults",
+      "examples": [
+        {
+          "text": "Does a negative test mean a person does not have COVID-19?"
+        },
+        {
+          "text": "Can a person test negative and later test positive for COVID-19?"
+        },
+        {
+          "text": "if you test negative can you still get COVID-19 later?"
+        },
+        {
+          "text": "Negative test results"
+        },
+        {
+          "text": "Can you have corona virus and still test negative?"
+        }
+      ],
+      "description": "Considerations for receiving negative test results"
+    },
+    {
+      "intent": "Lockdown",
+      "examples": [
+        {
+          "text": "tell me about lockdown"
+        },
+        {
+          "text": "what is lockdown"
+        },
+        {
+          "text": "lockdown"
+        },
+        {
+          "text": "Lockdwon"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "TopInfectedStates",
+      "examples": [
+        {
+          "text": "Highest infection rate"
+        },
+        {
+          "text": "Highest number of patients"
+        },
+        {
+          "text": "Which state has most patients"
+        },
+        {
+          "text": "Top infected states"
+        },
+        {
+          "text": "Most deaths"
+        },
+        {
+          "text": "Which state has most infections"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NegativeAnswers",
+      "examples": [
+        {
+          "text": "Nay"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Nope"
+        },
+        {
+          "text": "I don't think so."
+        },
+        {
+          "text": "Na"
+        },
+        {
+          "text": "Nahi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "buenos dias"
+        },
+        {
+          "text": "bonjour"
+        },
+        {
+          "text": "aloha"
+        },
+        {
+          "text": "Hii"
+        },
+        {
+          "text": "heya"
+        },
+        {
+          "text": "hey there"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "hi there"
+        },
+        {
+          "text": "howdy"
+        },
+        {
+          "text": "namaste"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "feeling a bit low"
+        },
+        {
+          "text": "Olla"
+        },
+        {
+          "text": "yello"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hello watson"
+        },
+        {
+          "text": "ciao"
+        }
+      ]
+    },
+    {
+      "intent": "Vaccine",
+      "examples": [
+        {
+          "text": "Is there a vaccine?"
+        },
+        {
+          "text": "Vaccine"
+        },
+        {
+          "text": "Is there a vaccine for Corona virus?"
+        },
+        {
+          "text": "Is vaccine available for covid-19?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ProtectingChildren",
+      "examples": [
+        {
+          "text": "is handwashing important for children?"
+        },
+        {
+          "text": "should I disinfect my kid's toys?"
+        },
+        {
+          "text": "Protecting children"
+        },
+        {
+          "text": "How can I protect my child from COVID-19 infection?"
+        },
+        {
+          "text": "what will protect my kids from getting the infection?"
+        }
+      ],
+      "description": "Guidance for keeping children protected"
+    },
+    {
+      "intent": "AgeGroup",
+      "examples": [
+        {
+          "text": "Vulnerable"
+        },
+        {
+          "text": "Which age group is most vulnerable for corona"
+        },
+        {
+          "text": "Which age group is most vulnerable?"
+        },
+        {
+          "text": "Age Group"
+        },
+        {
+          "text": "Which age group is most affected?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ReduceFamilyRisk",
+      "examples": [
+        {
+          "text": "What steps can my family take to reduce our risk of getting COVID-19?"
+        },
+        {
+          "text": "What should I have my family do to keep from getting sick?"
+        },
+        {
+          "text": "lower my family's risk of getting sick"
+        },
+        {
+          "text": "Reduce family risk"
+        },
+        {
+          "text": "what are the top tips to keep my family from catching it?"
+        }
+      ],
+      "description": "Guidance on reducing risk to your family"
+    },
+    {
+      "intent": "ProductsFromChina",
+      "examples": [
+        {
+          "text": "Products from China"
+        },
+        {
+          "text": "are packages from China infected?"
+        },
+        {
+          "text": "should i stop buying products from China?"
+        },
+        {
+          "text": "is it safe to buy Chinese products?"
+        },
+        {
+          "text": "Am I at risk for COVID-19 from a package or products shipping from China?"
+        }
+      ],
+      "description": "Guidance regarding packages from China"
+    },
+    {
+      "intent": "Corona_Helpline",
+      "examples": [
+        {
+          "text": "Helpline numbers for Uttar Pradesh",
+          "mentions": [
+            {
+              "entity": "states_ut",
+              "location": [
+                21,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "corona Helpline number for Maharashtra",
+          "mentions": [
+            {
+              "entity": "states_ut",
+              "location": [
+                27,
+                38
+              ]
+            }
+          ]
+        },
+        {
+          "text": "helpline numbers for Kerala",
+          "mentions": [
+            {
+              "entity": "states_ut",
+              "location": [
+                21,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are the helpline numbers?"
+        }
+      ],
+      "description": "Corona Helpline Numbers in India"
+    },
+    {
+      "intent": "PreparingChildren",
+      "examples": [
+        {
+          "text": "How do I prepare my children in case of COVID-19 outbreak in our community?"
+        },
+        {
+          "text": "how do I keep my kids from worrying about the virus?"
+        },
+        {
+          "text": "My child is stressed about the crisis how can I help?"
+        },
+        {
+          "text": "Preparing children"
+        },
+        {
+          "text": "what should I tell my child about this pandemic?"
+        }
+      ],
+      "description": "Guidance for calming and protecting children"
+    },
+    {
+      "intent": "DisinfectingSurfaces",
+      "examples": [
+        {
+          "text": "what products are best at disinfecting?"
+        },
+        {
+          "text": "Disinfecting surfaces"
+        },
+        {
+          "text": "Do I need to clean with bleach?"
+        },
+        {
+          "text": "How do I clean my home to remove virus molecules"
+        },
+        {
+          "text": "What cleaning products should I use to protect against COVID-19?"
+        },
+        {
+          "text": "how should i disinfect my home?"
+        },
+        {
+          "text": "Where do i need to disinfect?"
+        }
+      ],
+      "description": "Disinfection Guidance"
+    },
+    {
+      "intent": "How_many_cases",
+      "examples": [
+        {
+          "text": "How many cases of covid 19 have been detected?"
+        },
+        {
+          "text": "What are the stats on COVID-19?"
+        },
+        {
+          "text": "Total Cases so Far"
+        },
+        {
+          "text": "How many cases of corona virus has been detected?"
+        },
+        {
+          "text": "How many cases in US?",
+          "mentions": [
+            {
+              "entity": "country",
+              "location": [
+                18,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Active cases"
+        },
+        {
+          "text": "Total cases"
+        },
+        {
+          "text": "Cases in worls"
+        },
+        {
+          "text": "How many cases in India?",
+          "mentions": [
+            {
+              "entity": "country",
+              "location": [
+                18,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Total patients of Covid-19"
+        },
+        {
+          "text": "How many cases in France?",
+          "mentions": [
+            {
+              "entity": "country",
+              "location": [
+                18,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Total active cases"
+        },
+        {
+          "text": "Cases in World"
+        },
+        {
+          "text": "How many cases in Germany?",
+          "mentions": [
+            {
+              "entity": "country",
+              "location": [
+                18,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How many cases in Albania?",
+          "mentions": [
+            {
+              "entity": "country",
+              "location": [
+                18,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How many cases in Italy?",
+          "mentions": [
+            {
+              "entity": "country",
+              "location": [
+                18,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How many cases in South Africa?",
+          "mentions": [
+            {
+              "entity": "country",
+              "location": [
+                18,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How many cases in Sri Lanka?",
+          "mentions": [
+            {
+              "entity": "country",
+              "location": [
+                18,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How many cases in Nepal?",
+          "mentions": [
+            {
+              "entity": "country",
+              "location": [
+                18,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How many cases in China?",
+          "mentions": [
+            {
+              "entity": "country",
+              "location": [
+                18,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the stats on Corona Virus?"
+        },
+        {
+          "text": "How many cases of Covid 19 has been detected?"
+        },
+        {
+          "text": "How many cases so far?"
+        }
+      ],
+      "description": "Stats on number of infections"
+    },
+    {
+      "intent": "spreadviafood",
+      "examples": [
+        {
+          "text": "do I need to wash my groceries?"
+        },
+        {
+          "text": "Can the virus that causes COVID-19 be spread through food, including refrigerated or frozen food?"
+        },
+        {
+          "text": "does it spread on food packaging?"
+        },
+        {
+          "text": "does the virus stick to packaged food?"
+        },
+        {
+          "text": "spread via food"
+        }
+      ],
+      "description": "Virus spread from food or food packaging"
+    },
+    {
+      "intent": "AnimalContact",
+      "examples": [
+        {
+          "text": "can I get this from my dog?"
+        },
+        {
+          "text": "Should I avoid contact with pets or other animals if I am sick with COVID-19?"
+        },
+        {
+          "text": "Animal contact"
+        },
+        {
+          "text": "do dogs and cats get sick from corona virus?"
+        },
+        {
+          "text": "can my dog catch corona virus?"
+        },
+        {
+          "text": "can I get covid-19 from my pet?"
+        },
+        {
+          "text": "can I get this from my cat?"
+        }
+      ],
+      "description": "Human - Animal interaction guidance"
+    },
+    {
+      "intent": "StatusInIndia",
+      "examples": [
+        {
+          "text": "Total patients in India"
+        },
+        {
+          "text": "Deaths in India"
+        },
+        {
+          "text": "Covid-19 in India"
+        },
+        {
+          "text": "Cured patients in India"
+        },
+        {
+          "text": "Cases in India"
+        },
+        {
+          "text": "Active cases in India"
+        },
+        {
+          "text": "Current infected patients in India"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HowDoesItSpread",
+      "examples": [
+        {
+          "text": "is corona virus contagious?"
+        },
+        {
+          "text": "How does the virus spread?"
+        },
+        {
+          "text": "How does it spread"
+        },
+        {
+          "text": "how did the virus spread from China?"
+        },
+        {
+          "text": "does the corona virus spread easily?"
+        }
+      ],
+      "description": "Info on how COVID Spreads"
+    },
+    {
+      "intent": "Testing",
+      "examples": [
+        {
+          "text": "who should get tested?"
+        },
+        {
+          "text": "can my doctor test me if I start feeling sick?"
+        },
+        {
+          "text": "Testing"
+        },
+        {
+          "text": "should I head to the doctor if I show symptoms?"
+        },
+        {
+          "text": "Should I be tested for COVID-19?"
+        }
+      ],
+      "description": "When, where, how of getting yourself tested"
+    },
+    {
+      "intent": "schoolclosing",
+      "examples": [
+        {
+          "text": "who gets to decide if the school will close?"
+        },
+        {
+          "text": "how do I know if my school is closing?"
+        },
+        {
+          "text": "Will schools be dismissed if there is an outbreak in my community?"
+        },
+        {
+          "text": "school closing"
+        },
+        {
+          "text": "why are schools closing?"
+        }
+      ],
+      "description": "School closings information"
+    },
+    {
+      "intent": "ChildrenSocializing",
+      "examples": [
+        {
+          "text": "Is social distancing important for kids too?"
+        },
+        {
+          "text": "Can my kid still go to group activities?"
+        },
+        {
+          "text": "While school’s out, can my child hang out with their friends?"
+        },
+        {
+          "text": "Children socializing"
+        },
+        {
+          "text": "While school is out can my child go to sports practice?"
+        },
+        {
+          "text": "do kids need to limit in person contact?"
+        }
+      ],
+      "description": "Child Socialization guidance"
+    },
+    {
+      "intent": "CommunitySpread",
+      "examples": [
+        {
+          "text": "What is community spread?"
+        },
+        {
+          "text": "Why is community spread of this virus important?"
+        },
+        {
+          "text": "How does community spread happen? "
+        },
+        {
+          "text": "Can community spread happen? "
+        },
+        {
+          "text": "Community Spread"
+        },
+        {
+          "text": "Does  Corona Virus (COVID-19) spread to an entire community?"
+        },
+        {
+          "text": "What does that term community spread mean?"
+        }
+      ],
+      "description": "Defining Community Spread"
+    },
+    {
+      "intent": "CoronaSymptoms",
+      "examples": [
+        {
+          "text": "Can I be infected?"
+        },
+        {
+          "text": "Am I corona positive?"
+        },
+        {
+          "text": "Can you tell me if I am infected?"
+        },
+        {
+          "text": "Can I be Corona positive?"
+        },
+        {
+          "text": "Can you tell me if I have Corona?"
+        },
+        {
+          "text": "Do I have Corona?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "country",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Greenland",
+          "synonyms": [
+            "GL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Afghanistan",
+          "synonyms": [
+            "AF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Aland Islands",
+          "synonyms": [
+            "AX"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Algeria",
+          "synonyms": [
+            "DZ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "American Samoa",
+          "synonyms": [
+            "AS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Andorra",
+          "synonyms": [
+            "AD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Angola",
+          "synonyms": [
+            "AO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Anguilla",
+          "synonyms": [
+            "AI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Antarctica",
+          "synonyms": [
+            "AQ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Antigua and Barbuda",
+          "synonyms": [
+            "AG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Argentina",
+          "synonyms": [
+            "AR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Armenia",
+          "synonyms": [
+            "AM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Aruba",
+          "synonyms": [
+            "AW"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Australia",
+          "synonyms": [
+            "AU"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Austria",
+          "synonyms": [
+            "AT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Azerbaijan",
+          "synonyms": [
+            "AZ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bahamas",
+          "synonyms": [
+            "BS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bahrain",
+          "synonyms": [
+            "BH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bangladesh",
+          "synonyms": [
+            "BD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Barbados",
+          "synonyms": [
+            "BB"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Belarus",
+          "synonyms": [
+            "BY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Belgium",
+          "synonyms": [
+            "BE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Belize",
+          "synonyms": [
+            "BZ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Benin",
+          "synonyms": [
+            "BJ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bermuda",
+          "synonyms": [
+            "BM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bhutan",
+          "synonyms": [
+            "BT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bolivia",
+          "synonyms": [
+            "BO",
+            "Plurinational State of Bolivia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bonaire",
+          "synonyms": [
+            "BQ",
+            "Sint Eustatius and Saba Bonaire"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bosnia and Herzegovina",
+          "synonyms": [
+            "BA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Botswana",
+          "synonyms": [
+            "BW"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bouvet Island",
+          "synonyms": [
+            "BV"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Brazil",
+          "synonyms": [
+            "BR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "British Indian Ocean Territory",
+          "synonyms": [
+            "IO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Brunei Darussalam",
+          "synonyms": [
+            "BN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bulgaria",
+          "synonyms": [
+            "BG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Burkina Faso",
+          "synonyms": [
+            "BF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Burundi",
+          "synonyms": [
+            "BI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cambodia",
+          "synonyms": [
+            "KH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cameroon",
+          "synonyms": [
+            "CM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Canada",
+          "synonyms": [
+            "CA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cape Verde",
+          "synonyms": [
+            "CV"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cayman Islands",
+          "synonyms": [
+            "KY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Central African Republic",
+          "synonyms": [
+            "CF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chad",
+          "synonyms": [
+            "TD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chile",
+          "synonyms": [
+            "CL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "China",
+          "synonyms": [
+            "CN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Christmas Island",
+          "synonyms": [
+            "CX"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cocos (Keeling) Islands",
+          "synonyms": [
+            "CC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Colombia",
+          "synonyms": [
+            "CO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Comoros",
+          "synonyms": [
+            "KM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Congo",
+          "synonyms": [
+            "CD",
+            "the Democratic Republic of the Congo",
+            "CG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cook Islands",
+          "synonyms": [
+            "CK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Costa Rica",
+          "synonyms": [
+            "CR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Côte d'Ivoire",
+          "synonyms": [
+            "CI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Croatia",
+          "synonyms": [
+            "HR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cuba",
+          "synonyms": [
+            "CU"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Curaçao",
+          "synonyms": [
+            "CW"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cyprus",
+          "synonyms": [
+            "CY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Czech Republic",
+          "synonyms": [
+            "CZ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Denmark",
+          "synonyms": [
+            "DK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Djibouti",
+          "synonyms": [
+            "DJ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dominica",
+          "synonyms": [
+            "DM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ecuador",
+          "synonyms": [
+            "EC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Egypt",
+          "synonyms": [
+            "EG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "El Salvador",
+          "synonyms": [
+            "SV"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Equatorial Guinea",
+          "synonyms": [
+            "GQ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Eritrea",
+          "synonyms": [
+            "ER"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Estonia",
+          "synonyms": [
+            "EE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethiopia",
+          "synonyms": [
+            "ET"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Falkland Islands (Malvinas)",
+          "synonyms": [
+            "FK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Faroe Islands",
+          "synonyms": [
+            "FO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fiji",
+          "synonyms": [
+            "FJ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Finland",
+          "synonyms": [
+            "FI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "France",
+          "synonyms": [
+            "FR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "French Guiana",
+          "synonyms": [
+            "GF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "French Polynesia",
+          "synonyms": [
+            "PF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "French Southern Territories",
+          "synonyms": [
+            "TF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Gabon",
+          "synonyms": [
+            "GA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Gambia",
+          "synonyms": [
+            "GM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Georgia",
+          "synonyms": [
+            "GE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Germany",
+          "synonyms": [
+            "DE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ghana",
+          "synonyms": [
+            "GH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Gibraltar",
+          "synonyms": [
+            "GI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Greece",
+          "synonyms": [
+            "GR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Namibia",
+          "synonyms": [
+            "NA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nauru",
+          "synonyms": [
+            "NR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nepal",
+          "synonyms": [
+            "NP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Netherlands",
+          "synonyms": [
+            "NL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New Caledonia",
+          "synonyms": [
+            "NC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New Zealand",
+          "synonyms": [
+            "NZ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nicaragua",
+          "synonyms": [
+            "NI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Niger",
+          "synonyms": [
+            "NE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nigeria",
+          "synonyms": [
+            "NG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Niue",
+          "synonyms": [
+            "NU"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Norfolk Island",
+          "synonyms": [
+            "NF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Northern Mariana Islands",
+          "synonyms": [
+            "MP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Norway",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Oman",
+          "synonyms": [
+            "OM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pakistan",
+          "synonyms": [
+            "PK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Palau",
+          "synonyms": [
+            "PW"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Palestine",
+          "synonyms": [
+            "PS",
+            "State of Palestine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Panama",
+          "synonyms": [
+            "PA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Papua New Guinea",
+          "synonyms": [
+            "PG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Paraguay",
+          "synonyms": [
+            "PY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Peru",
+          "synonyms": [
+            "PE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Philippines",
+          "synonyms": [
+            "PH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pitcairn",
+          "synonyms": [
+            "PN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Poland",
+          "synonyms": [
+            "PL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Portugal",
+          "synonyms": [
+            "PT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Puerto Rico",
+          "synonyms": [
+            "PR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Qatar",
+          "synonyms": [
+            "QA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Réunion",
+          "synonyms": [
+            "RE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Romania",
+          "synonyms": [
+            "RO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Russian Federation",
+          "synonyms": [
+            "RU"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rwanda",
+          "synonyms": [
+            "RW"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Saint Barthélemy",
+          "synonyms": [
+            "BL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Saint Helena",
+          "synonyms": [
+            "SH",
+            "Ascension and Tristan da Cunha Saint Helena"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Saint Kitts and Nevis",
+          "synonyms": [
+            "KN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Saint Lucia",
+          "synonyms": [
+            "LC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Saint Martin (French part)",
+          "synonyms": [
+            "MF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Saint Pierre and Miquelon",
+          "synonyms": [
+            "PM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Saint Vincent and the Grenadines",
+          "synonyms": [
+            "VC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Samoa",
+          "synonyms": [
+            "WS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "San Marino",
+          "synonyms": [
+            "SM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sao Tome and Principe",
+          "synonyms": [
+            "ST"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Saudi Arabia",
+          "synonyms": [
+            "SA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Senegal",
+          "synonyms": [
+            "SN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Serbia",
+          "synonyms": [
+            "RS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Seychelles",
+          "synonyms": [
+            "SC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sierra Leone",
+          "synonyms": [
+            "SL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Singapore",
+          "synonyms": [
+            "SG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sint Maarten (Dutch part)",
+          "synonyms": [
+            "SX"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Slovakia",
+          "synonyms": [
+            "SK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Slovenia",
+          "synonyms": [
+            "SI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Solomon Islands",
+          "synonyms": [
+            "SB"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "South Africa",
+          "synonyms": [
+            "ZA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "South Georgia and the South Sandwich Islands",
+          "synonyms": [
+            "GS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "South Sudan",
+          "synonyms": [
+            "SS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Spain",
+          "synonyms": [
+            "ES"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sri Lanka",
+          "synonyms": [
+            "LK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sudan",
+          "synonyms": [
+            "SD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Suriname",
+          "synonyms": [
+            "SR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Svalbard and Jan Mayen",
+          "synonyms": [
+            "SJ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Swaziland",
+          "synonyms": [
+            "SZ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sweden",
+          "synonyms": [
+            "SE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Switzerland",
+          "synonyms": [
+            "CH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Syrian Arab Republic",
+          "synonyms": [
+            "SY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Taiwan",
+          "synonyms": [
+            "TW",
+            "Province of China Taiwan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tajikistan",
+          "synonyms": [
+            "TJ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tanzania",
+          "synonyms": [
+            "TZ",
+            "United Republic of Tanzania"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Thailand",
+          "synonyms": [
+            "TH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Timor-Leste",
+          "synonyms": [
+            "TL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Somalia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Togo",
+          "synonyms": [
+            "TG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tokelau",
+          "synonyms": [
+            "TK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tonga",
+          "synonyms": [
+            "TO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Trinidad and Tobago",
+          "synonyms": [
+            "TT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tunisia",
+          "synonyms": [
+            "TN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Turkey",
+          "synonyms": [
+            "TR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Turkmenistan",
+          "synonyms": [
+            "TM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Turks and Caicos Islands",
+          "synonyms": [
+            "TC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tuvalu",
+          "synonyms": [
+            "TV"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Uganda",
+          "synonyms": [
+            "UG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ukraine",
+          "synonyms": [
+            "UA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "United Kingdom",
+          "synonyms": [
+            "GB"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "United States Minor Outlying Islands",
+          "synonyms": [
+            "UM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Uruguay",
+          "synonyms": [
+            "UY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Uzbekistan",
+          "synonyms": [
+            "UZ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vanuatu",
+          "synonyms": [
+            "VU"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Venezuela",
+          "synonyms": [
+            "VE",
+            "Bolivarian Republic of Venezuela"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Viet Nam",
+          "synonyms": [
+            "VN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Virgin Islands",
+          "synonyms": [
+            "VI",
+            "U.S. Virgin Islands",
+            "VG",
+            "British Virgin Islands"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wallis and Futuna",
+          "synonyms": [
+            "WF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Western Sahara",
+          "synonyms": [
+            "EH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yemen",
+          "synonyms": [
+            "YE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Zambia",
+          "synonyms": [
+            "ZM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Zimbabwe",
+          "synonyms": [
+            "ZW"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "United States of America",
+          "synonyms": [
+            "US",
+            "United States"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "United Arab Emirates",
+          "synonyms": [
+            "UAE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Albania",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grenada",
+          "synonyms": [
+            "GD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guadeloupe",
+          "synonyms": [
+            "GP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guam",
+          "synonyms": [
+            "GU"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guatemala",
+          "synonyms": [
+            "GT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guernsey",
+          "synonyms": [
+            "GG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guinea",
+          "synonyms": [
+            "GN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guinea-Bissau",
+          "synonyms": [
+            "GW"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guyana",
+          "synonyms": [
+            "GY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Haiti",
+          "synonyms": [
+            "HT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Heard Island and McDonald Islands",
+          "synonyms": [
+            "HM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Holy See (Vatican City State)",
+          "synonyms": [
+            "VA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Honduras",
+          "synonyms": [
+            "HN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hong Kong",
+          "synonyms": [
+            "HK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hungary",
+          "synonyms": [
+            "HU"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "India",
+          "synonyms": [
+            "hindustan",
+            "bharat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Indonesia",
+          "synonyms": [
+            "ID"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Iran",
+          "synonyms": [
+            "IR",
+            "Islamic Republic of Iran"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Iraq",
+          "synonyms": [
+            "IQ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ireland",
+          "synonyms": [
+            "IE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Isle of Man",
+          "synonyms": [
+            "IM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Israel",
+          "synonyms": [
+            "IL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Italy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jamaica",
+          "synonyms": [
+            "JM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Japan",
+          "synonyms": [
+            "JP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jersey",
+          "synonyms": [
+            "JE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jordan",
+          "synonyms": [
+            "JO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kazakhstan",
+          "synonyms": [
+            "KZ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kenya",
+          "synonyms": [
+            "KE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kiribati",
+          "synonyms": [
+            "KI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Iceland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dominican Republic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Korea",
+          "synonyms": [
+            "KR",
+            "Republic of Korea",
+            "KP",
+            "Democratic People's Republic of Korea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kuwait",
+          "synonyms": [
+            "KW"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kyrgyzstan",
+          "synonyms": [
+            "KG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lao People's Democratic Republic",
+          "synonyms": [
+            "LA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Latvia",
+          "synonyms": [
+            "LV"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lebanon",
+          "synonyms": [
+            "LB"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lesotho",
+          "synonyms": [
+            "LS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Liberia",
+          "synonyms": [
+            "LR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Libya",
+          "synonyms": [
+            "LY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Liechtenstein",
+          "synonyms": [
+            "LI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lithuania",
+          "synonyms": [
+            "LT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Luxembourg",
+          "synonyms": [
+            "LU"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Macao",
+          "synonyms": [
+            "MO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Macedonia",
+          "synonyms": [
+            "MK",
+            "the Former Yugoslav Republic of Macedonia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Madagascar",
+          "synonyms": [
+            "MG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Malawi",
+          "synonyms": [
+            "MW"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Malaysia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maldives",
+          "synonyms": [
+            "MV"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mali",
+          "synonyms": [
+            "ML"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Malta",
+          "synonyms": [
+            "MT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marshall Islands",
+          "synonyms": [
+            "MH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Martinique",
+          "synonyms": [
+            "MQ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mauritania",
+          "synonyms": [
+            "MR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mauritius",
+          "synonyms": [
+            "MU"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mayotte",
+          "synonyms": [
+            "YT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mexico",
+          "synonyms": [
+            "MX"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Micronesia",
+          "synonyms": [
+            "FM",
+            "Federated States of Micronesia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Moldova",
+          "synonyms": [
+            "MD",
+            "Republic of Moldova"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Monaco",
+          "synonyms": [
+            "MC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mongolia",
+          "synonyms": [
+            "MN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Montenegro",
+          "synonyms": [
+            "ME"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Montserrat",
+          "synonyms": [
+            "MS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Morocco",
+          "synonyms": [
+            "MA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mozambique",
+          "synonyms": [
+            "MZ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Myanmar",
+          "synonyms": [
+            "MM"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "coronavirus",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "coronavirus",
+          "synonyms": [
+            "corona",
+            "virus check",
+            "virus",
+            "COVID-19",
+            "COVID",
+            "coronavirus",
+            "corona-virus",
+            "carona-virus",
+            "Carona",
+            "Korona",
+            "Korona-virus",
+            "COVID19"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "drycough",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dry cough",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "not now",
+            "not at this time",
+            "nope",
+            "i think not",
+            "dont think so",
+            "don't think so",
+            "definitely not"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yep",
+            "you betcha",
+            "you bet",
+            "yes",
+            "yeah",
+            "why not",
+            "sure",
+            "please",
+            "ok",
+            "let's do it",
+            "go for it",
+            "definitely"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "phone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "US Phone pattern",
+          "patterns": [
+            "(\\d{3})-(\\d{3})-(\\d{4})"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "WestZone",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "WestZone",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maharashtra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Karnataka",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "West",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Goa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rajasthan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gujarat",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "landmark",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "empire state building",
+          "synonyms": [
+            "emprire state",
+            "empire state"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "grand central",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "times square",
+          "synonyms": [
+            "times sqaure",
+            "time square",
+            "time sqaure"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "school_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "preschool",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "high school",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "college",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "middle school",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grade school",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "EastZone",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "EastZone",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Orissa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "east",
+          "synonyms": [
+            "eastern"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "West Bengal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bihar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jharkhand",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "states_ut",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Meghalaya",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Odisha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Puducherry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rajasthan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tamil Nadu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Telengana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "West Bengal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tripura",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Uttar Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Uttarakhand",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lakshadweep",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andaman and Nicobar Islands",
+          "synonyms": [
+            "andaman islands",
+            "nicobar islands",
+            "great nicobar",
+            "car nicobar",
+            "port blair",
+            "nicobar district",
+            "Andaman & Nicobar Islands"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Andhra Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Assam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Daman and Diu",
+          "synonyms": [
+            "Daman & Diu",
+            "Daman",
+            "Diu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Arunachal Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bihar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chandigarh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chhattisgarh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dadar Nagar Haveli",
+          "synonyms": [
+            "Dadar and Nagar Haveli",
+            "Dadar & Nagar Haveli"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sikkim",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delhi",
+          "synonyms": [
+            "New Delhi",
+            "NCT",
+            "National Capital Territory"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nagaland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Goa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Karnataka",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Manipur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gujrat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Haryana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Himachal Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jammu and Kashmir",
+          "synonyms": [
+            "Jammu & Kashmir",
+            "Jammu",
+            "Kashmir"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jharkhand",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kerala",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ladakh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madhya Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mizoram",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Punjab",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maharashtra",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hospital",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Hospital",
+          "synonyms": [
+            "hospitals",
+            "hosptial",
+            "medical",
+            "clinic",
+            "inpatient",
+            "ambulance",
+            "hopital",
+            "icu",
+            "hosp",
+            "infirmary"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "zip_code",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "@sys-number",
+          "patterns": [
+            "(\\b|\\s)\\d{5}(\\b|\\s)"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "NorthEastZone",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Nagaland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "North East",
+          "synonyms": [
+            "NE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Manipur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sikkim",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Assam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NorthEast",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tripura",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arunachal Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mizoram",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Meghalaya",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fever",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fever",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tiredness",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tiredness",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-location",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "SouthZone",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "South",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tamil Nadu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andhra Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Telangana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Karnataka",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kerala",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "NorthZone",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Uttarakhand",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NorthZone",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madhya Pradesh",
+          "synonyms": [
+            "M.P."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "North",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Haryana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Himachal Pradesh",
+          "synonyms": [
+            "H.P."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Punjab",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jammu and Kashmir",
+          "synonyms": [
+            "J&K"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Uttar Pradesh",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/aditi.dpk17%40gmail.com_dev/default/Watson%20Chatbot.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Negative Reply",
+      "parent": "node_3_1589884994920",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11791"
+      },
+      "conditions": "#NegativeAnswers",
+      "dialog_node": "node_7_1589896504260",
+      "previous_sibling": "node_9_1589896390601"
+    },
+    {
+      "type": "standard",
+      "title": "Positive reply",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What do you want to know?"
+              },
+              {
+                "text": "How can I help you?"
+              },
+              {
+                "text": "Ask me anything."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1589884994920",
+      "conditions": "#PositiveAnswers",
+      "dialog_node": "node_9_1589896390601"
+    },
+    {
+      "type": "standard",
+      "title": "node_11790",
+      "output": {},
+      "parent": "node_11788",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11749"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_11790",
+      "previous_sibling": "node_11789"
+    },
+    {
+      "type": "standard",
+      "title": "node_11789",
+      "output": {},
+      "parent": "node_11788",
+      "context": {},
+      "conditions": "input.text == '' && !input.button",
+      "dialog_node": "node_11789"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1589913258142",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1589913258148",
+      "previous_sibling": "handler_6_1589913258148"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1589913258142",
+      "context": {
+        "location": "@country"
+      },
+      "conditions": "@country",
+      "event_name": "input",
+      "dialog_node": "handler_6_1589913258148"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter a valid name. For which state would you like to know?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1589915589934",
+      "conditions": "",
+      "event_name": "nomatch",
+      "dialog_node": "handler_9_1589915721016",
+      "previous_sibling": "handler_4_1589915589974"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For which state would you like to know?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1589915589934",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1589915589974",
+      "previous_sibling": "handler_3_1589915589974"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1589915589934",
+      "context": {
+        "location": "@states_ut"
+      },
+      "conditions": "@states_ut",
+      "event_name": "input",
+      "dialog_node": "handler_3_1589915589974"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What location (Country/Country Code/US State) would you like the stats for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1585096776672",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1585096776761",
+      "previous_sibling": "handler_2_1585096776761"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1585096776672",
+      "context": {
+        "location": "@country"
+      },
+      "conditions": "@country",
+      "event_name": "input",
+      "dialog_node": "handler_2_1585096776761"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You have a moderately low chance of being infected. Take precautions and try social distancing."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1589882632824",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1589882972912"
+      },
+      "conditions": "#NegativeAnswers",
+      "dialog_node": "response_2_1589882857842",
+      "previous_sibling": "response_10_1589882844348"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have mild symptoms of Corona infection."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589882632824",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1589882972912"
+      },
+      "conditions": "#PositiveAnswers",
+      "dialog_node": "response_10_1589882844348"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have mild symptoms of Corona Virus. See your doctor as soon as possible."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1589883053153",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1589884994920"
+      },
+      "conditions": "#NegativeAnswers",
+      "dialog_node": "response_10_1589885877547",
+      "previous_sibling": "response_1_1589883174946"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you have difficulty in breathing or shortness of breath?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1589883053153",
+      "conditions": "#PositiveAnswers",
+      "dialog_node": "response_1_1589883174946",
+      "previous_sibling": "node_7_1589883496702"
+    },
+    {
+      "type": "standard",
+      "title": "Chest Pain",
+      "parent": "node_2_1589883053153",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#PositiveAnswers || #NegativeAnswers",
+      "dialog_node": "node_7_1589883496702"
+    },
+    {
+      "type": "standard",
+      "title": "Serious Symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you want to check for more serious symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589882368667",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "dialog_node": "node_4_1589882972912",
+      "previous_sibling": "node_7_1589882632824"
+    },
+    {
+      "type": "standard",
+      "title": "Tiredness",
+      "parent": "node_10_1589882368667",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#PositiveAnswers || #NegativeAnswers",
+      "dialog_node": "node_7_1589882632824",
+      "previous_sibling": "node_10_1589882629718"
+    },
+    {
+      "type": "standard",
+      "title": "Dry Cough",
+      "parent": "node_10_1589882368667",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#PositiveAnswers || #NegativeAnswers",
+      "dialog_node": "node_10_1589882629718",
+      "previous_sibling": "node_5_1589882491440"
+    },
+    {
+      "type": "standard",
+      "title": "Fever",
+      "parent": "node_10_1589882368667",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#PositiveAnswers || #NegativeAnswers",
+      "dialog_node": "node_5_1589882491440"
+    },
+    {
+      "type": "standard",
+      "title": "Difficulty in breathing",
+      "parent": "node_4_1589882972912",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#PositiveAnswers || #NegativeAnswers",
+      "dialog_node": "node_2_1589883053153",
+      "previous_sibling": "response_9_1589885823119"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you want to check for more serious symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1589882972912",
+      "disabled": true,
+      "dialog_node": "response_9_1589885823119"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In my opinion, stay at home and try social distancing. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589955248771",
+      "conditions": "#NegativeAnswers",
+      "dialog_node": "node_7_1589956987444",
+      "previous_sibling": "node_8_1589956408291"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter zone or Indian state.(East,West,North,South) "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589955248771",
+      "conditions": "#PositiveAnswers",
+      "dialog_node": "node_8_1589956408291"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello, I’m Medic ready to answer your questions about COVID-19. How can I help you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11749",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1585074744879",
+      "previous_sibling": "response_10_1585074743918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I don't know the answer to that yet.  $webhook_result_2.result"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "parent": "node_11749",
+      "context": {},
+      "conditions": "$null",
+      "dialog_node": "response_10_1585074743918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you have chest pain?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1589883496702",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1589884642197"
+      },
+      "conditions": "#PositiveAnswers",
+      "dialog_node": "response_2_1589883569093",
+      "previous_sibling": "node_10_1589884642197"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You have mild symptoms of Corona. See your doctor at the earliest."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1589883496702",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1589884994920"
+      },
+      "conditions": "#NegativeAnswers",
+      "dialog_node": "response_10_1589883579061",
+      "previous_sibling": "response_2_1589883569093"
+    },
+    {
+      "type": "standard",
+      "title": "Loss of speech",
+      "parent": "node_7_1589883496702",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#PositiveAnswers || #NegativeAnswers",
+      "dialog_node": "node_10_1589884642197"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I could not find anything"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1589915554404",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1589915892733",
+      "previous_sibling": "response_5_1589915889954"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1589915554404",
+      "variable": "$location",
+      "dialog_node": "slot_8_1589915589934",
+      "previous_sibling": "response_2_1589915892733"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$data.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1589915554404",
+      "conditions": "$data",
+      "dialog_node": "response_5_1589915889954"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you have loss of speech or difficulty while speaking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589884642197",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1589884811153"
+      },
+      "conditions": "#PositiveAnswers",
+      "dialog_node": "response_5_1589884670171",
+      "previous_sibling": "node_3_1589884994920"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You have a high chance of being infected. Visit a doctor and get yourself checked. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1589884642197",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1589884994920"
+      },
+      "conditions": "#NegativeAnswers",
+      "dialog_node": "response_9_1589884757450",
+      "previous_sibling": "response_5_1589884670171"
+    },
+    {
+      "type": "standard",
+      "title": "Negative Reply",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Can I help you with anything else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589884642197",
+      "conditions": "#NegativeAnswers",
+      "dialog_node": "node_3_1589884994920",
+      "previous_sibling": "node_3_1589884811153"
+    },
+    {
+      "type": "standard",
+      "title": "High Risk",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have a very risk of infection. Visit a doctor at the earliest and try to distance yourself from people. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589884642197",
+      "conditions": "#PositiveAnswers",
+      "dialog_node": "node_3_1589884811153"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Try again later."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1584976214871",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1584976331717",
+      "previous_sibling": "response_5_1584976331463"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1584976214871",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_5_1584976331463"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You have a moderately low chance of being infected. Take precautions and try social distancing."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1589882629718",
+      "conditions": "#NegativeAnswers",
+      "dialog_node": "response_5_1589882703968",
+      "previous_sibling": "response_7_1589882671067"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you feel tired?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589882629718",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1589882632824"
+      },
+      "conditions": "#PositiveAnswers",
+      "dialog_node": "response_7_1589882671067"
+    },
+    {
+      "type": "frame",
+      "title": "How Many Cases",
+      "parent": "node_4_1585096044203",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "api",
+            "location": "$location"
+          },
+          "result_variable": "summary"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#How_many_cases || #StatusInIndia",
+      "dialog_node": "node_3_1585093908809"
+    },
+    {
+      "type": "standard",
+      "title": "Zone_InfoN",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The list of hospitals to get tested :\n1. Rajendra Memorial Research Institute of Medical Sciences, Patna,Bihar \n2.MGM Medical College,Jamshedpur , Jharkhand.\n3.Regional Medical Research Center, Bhubaneswar,Orissa. 4.National Institute of Cholera and Enteric Diseases, Kolkata,WB. 5.IPGMER, Kolkata,WB."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589956408291",
+      "conditions": "@NorthZone",
+      "dialog_node": "node_8_1589972287430",
+      "previous_sibling": "node_5_1589968640985"
+    },
+    {
+      "type": "standard",
+      "title": "Zone_InfoE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The list of hospitals to get tested :                                                       \n1. Rajendra Memorial Research Institute of Medical Sciences, Patna,Bihar                                                                                       2.MGM Medical College,Jamshedpur , Jharkhand.           \n3.Regional Medical Research Center, Bhubaneswar,Orissa.   4.National Institute of Cholera and Enteric Diseases, Kolkata,WB. 5.IPGMER, Kolkata,WB."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589956408291",
+      "conditions": "@EastZone",
+      "dialog_node": "node_2_1589967569870",
+      "previous_sibling": "node_8_1589969296075"
+    },
+    {
+      "type": "standard",
+      "title": "Zone_InfoW",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The list of hospitals to get tested :                                                   1. Indira Gandhi Government Medical College, Nagpur,MH.\n2. Kasturba Hospital for Infectious Diseases, Mumbai,MH.               3 .Sawai Man Singh, Jaipur,Rajasthan.\n4 .Dr. S.N Medical College, Jodhpur,Rajasthan.\n5. Jhalawar Medical College, Jhalawar,Rajasthan.\n6.SP Med. College, Bikaner,Rajasthan.\n7. RNT Medical College, Udaipur,Rajasthan.                                  \n8. BJ Medical College, Ahmedabad,Gujarat.\n9. M.P.Shah Government Medical College, Jamnagar,Gujarat."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589956408291",
+      "conditions": "@WestZone",
+      "dialog_node": "node_8_1589969296075",
+      "previous_sibling": "node_1_1589971469290"
+    },
+    {
+      "type": "standard",
+      "title": "Zone_InfoS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The list of hospitals to get tested :           \n1. National Institute of Virology Field Unit,Kerela.\n2. Govt. Medical College, Thriuvananthapuram,Kerela.\n3. Govt. Medical College, Kozhikhode,Kerela.\n4. Govt. Medical College, Thrissur,Kerela.\n5. Bangalore Medical College & Research Institute, Bangalore,Karnataka.  \n6. National Institute of Virology Field Unit Bangalore,Karnataka.\n7. Mysore Medical College & Research Institute, Mysore,Karnataka.\n8. Hassan Inst. of Med. Sciences, Hassan,Karnataka.\n9. Shimoga Inst. of Med. Sciences, Shivamogga,Karnataka.\n10. Gandhi Medical College, Secunderabad,Telangana.\n11. Osmania Medical College, Hyderabad,Telangana.\n12.Sri Venkateswara Institute of Medical Sciences, Tirupati,Andhra Pradesh.\n13.Andhra Medical College, Visakhapatnam,Andhra Pradesh.\n14.GMC, Anantapur,Andhra Pradesh.\n15.Sidhartha Medical College, Vijayawada,Andhra Pradesh.\n16.Rangaraya Medical College, Kakinada,Andhra Pradesh.\n17.King's Institute of Preventive Medicine & Research, Chennai,T.N.\n18.Government Medical College, Theni,T.N.\n19.Tirunelveli Medical College, Tirunelveli,T.N.\n20.Govt. Medical college, Thiruvaru,T.N.\n \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589956408291",
+      "conditions": "@SouthZone",
+      "dialog_node": "node_1_1589971469290",
+      "previous_sibling": "node_8_1589972287430"
+    },
+    {
+      "type": "standard",
+      "title": "Zone_InfoNE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The list of hospitals to get tested :                                         1.NEIGRI of Health and Medical Sciences, Shillong,Meghalaya.   2. J N Inst. of Med. Sciences Hospital, Imphal-East, Manipur.\n3.Regional Institute of Medical Sciences, Imphal,Manipur. 4.Government Medical College, Agartala,Tripura. 5.Gauhati Medical College, Guwahati,Assam.\n6.Regional Medical Research Center, Dibrugarh,Assam.\n7.Silchar Medical College, Silchar,Assam.\n8.Jorhat Medical College, Jorhat,Assam."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589956408291",
+      "conditions": "@NorthEastZone",
+      "dialog_node": "node_5_1589968640985"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What location (Country/Indian State) would you like the stats for?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1589909155335",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1589909155343",
+      "previous_sibling": "handler_10_1589909155343"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1589909155335",
+      "context": {
+        "location": "@states_ut"
+      },
+      "conditions": "@states_ut",
+      "event_name": "input",
+      "dialog_node": "handler_10_1589909155343"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The infection risk is low. Take precautions and try social distancing."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1589882491440",
+      "conditions": "#NegativeAnswers",
+      "dialog_node": "response_8_1589882553816",
+      "previous_sibling": "response_2_1589882521427"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you have dry cough?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1589882491440",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1589882629718"
+      },
+      "conditions": "#PositiveAnswers",
+      "dialog_node": "response_2_1589882521427"
+    },
+    {
+      "type": "frame",
+      "title": "Location Info",
+      "parent": "node_3_1585093908809",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "api",
+            "location": "$location"
+          },
+          "result_variable": "data"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1589882601095"
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_4_1585096079466",
+      "previous_sibling": "slot_3_1589913258142"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I could not find any thing."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1585093908809",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1585095664425",
+      "previous_sibling": "response_1_1585095663277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "deleted": "<? context.remove('location') ?>",
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$summary.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Would you like the stats of any specific location?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1585093908809",
+      "conditions": "$summary",
+      "dialog_node": "response_1_1585095663277",
+      "previous_sibling": "node_7_1589915418699"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1585093908809",
+      "variable": "$location",
+      "dialog_node": "slot_3_1589913258142",
+      "previous_sibling": "slot_8_1585096407905"
+    },
+    {
+      "type": "standard",
+      "title": "stop_query",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1585093908809",
+      "conditions": "@reply:no",
+      "dialog_node": "node_7_1589915418699",
+      "previous_sibling": "node_4_1585096079466"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1585093908809",
+      "variable": "$location",
+      "dialog_node": "slot_8_1585096407905"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1585096407905",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1585096407991",
+      "previous_sibling": "handler_3_1585096407991"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1585096407905",
+      "context": {
+        "location": "@states_ut"
+      },
+      "conditions": "@states_ut",
+      "event_name": "input",
+      "dialog_node": "handler_3_1585096407991"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$data.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1585096079466",
+      "conditions": "$data",
+      "dialog_node": "response_9_1585096897994",
+      "previous_sibling": "node_1_1589911506649"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I could not find any information on that."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1585096079466",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1585096899249",
+      "previous_sibling": "response_9_1585096897994"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1585096079466",
+      "variable": "$location",
+      "dialog_node": "slot_9_1585096776672",
+      "previous_sibling": "slot_4_1589909155335"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1585096079466",
+      "variable": "$location",
+      "dialog_node": "slot_4_1589909155335",
+      "previous_sibling": "response_3_1585096899249"
+    },
+    {
+      "type": "standard",
+      "title": "cleanup",
+      "output": {
+        "deleted": "<? context.remove('location') ?> <? context.remove('data') ?> <? context.remove('summary') ?> <? context.remove('low_confidence') ?> <? context.remove('out_of_bounds') ?> <? context.remove('timezone') ?>",
+        "generic": []
+      },
+      "parent": "node_4_1585096079466",
+      "conditions": "true",
+      "dialog_node": "node_1_1589911506649"
+    },
+    {
+      "type": "standard",
+      "title": "Warmer Weather Mitigation",
+      "output": {
+        "text": {
+          "values": [
+            "It is not yet known whether weather and temperature impact the spread of COVID-19. Some other viruses, like the common cold and flu, spread more during cold weather months but that does not mean it is impossible to become sick with these viruses during other months. At this time, it is not known whether the spread of COVID-19 will decrease when weather becomes warmer. There is much more to learn about the transmissibility, severity, and other features associated with COVID-19 and investigations are ongoing."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#warmerweather && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11758",
+      "previous_sibling": "node_11757"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "text": {
+          "values": [
+            "Hello, I’m Medic ready to answer your questions about COVID-19. How can I help you?",
+            "I am Medic. You can ask me anything about Covid-19."
+          ],
+          "selection_policy": "random"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "#greeting && intents[0].confidence > 0.95",
+      "dialog_node": "node_11748",
+      "previous_sibling": "node_11788"
+    },
+    {
+      "type": "standard",
+      "title": "node_11750",
+      "output": {
+        "text": {
+          "values": [
+            "Did you mean:",
+            "You seem to be asking about: ",
+            "I think you were asking about:"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "buttons": [
+          {
+            "id": "<? intents.?[intent != 'greeting' && intent != 'goodbyes'  && intent != 'nonsense' && intent != 'no' && intent != 'yes' && intent != 'weather'][0].intent ?>"
+          },
+          {
+            "id": "<? intents.?[intent != 'greeting' && intent != 'goodbyes'  && intent != 'nonsense' && intent != 'no' && intent != 'yes' && intent != 'weather'][1].intent ?>"
+          },
+          {
+            "id": "<? intents.?[intent != 'greeting' && intent != 'goodbyes'  && intent != 'nonsense' && intent != 'no' && intent != 'yes' && intent != 'weather'][2].intent ?>"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "intents.size() > 0 && (intents[0].confidence < $low_confidence && intents[0].confidence > $out_of_bounds)",
+      "dialog_node": "node_11750",
+      "previous_sibling": "node_8_1585238958758"
+    },
+    {
+      "type": "standard",
+      "title": "School Closing Information",
+      "output": {
+        "text": {
+          "values": [
+            "Depending on the situation, public health officials may recommend community actions to reduce exposures to COVID-19, such as school dismissals. Read or watch local media sources that report school dismissals or and watch for communication from your child’s school. If schools are dismissed temporarily, discourage students and staff from gathering or socializing anywhere, like at a friend’s house, a favorite restaurant, or the local shopping mall."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#schoolclosing && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11774",
+      "previous_sibling": "node_11773"
+    },
+    {
+      "type": "standard",
+      "title": "Info about Stigmatized Groups",
+      "output": {
+        "text": {
+          "values": [
+            "People in the U.S. may be worried or anxious about friends and relatives who are living in or visiting areas where COVID-19 is spreading. Some people are worried about the disease. Fear and anxiety can lead to social stigma, for example, towards Chinese or other Asian Americans or people who were in quarantine. Stigma is discrimination against an identifiable group of people, a place, or a nation. Stigma is associated with a lack of knowledge about how COVID-19 spreads, a need to blame someone, fears about disease and death, and gossip that spreads rumors and myths. Stigma hurts everyone by creating more fear or anger towards ordinary people instead of the disease that is causing the problem."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Stigmatizedgroups && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11779",
+      "previous_sibling": "node_11778"
+    },
+    {
+      "type": "standard",
+      "title": "Age Group",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "COVID-19–related deaths in China have mostly involved older individuals (≥60 years) and persons with serious underlying health conditions. In the United States, attributable deaths have been most common in adults aged 85 years or older (10%-27%), followed by adults aged 65-84 years (3%-11%), adults aged 55-64 years (1%-3%), and adults aged 20-54 years (< 1%). As of March 16, 2020 no fatalities or ICU admissions had been reported in persons aged 19 years or younger."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#AgeGroup",
+      "dialog_node": "node_8_1589897481931",
+      "previous_sibling": "node_6_1589897387866"
+    },
+    {
+      "type": "standard",
+      "title": "Data Disclaimer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This bot is populated with data sourced from the following resources:\n\nMost static responses provide information found on the CDC's Covid FAQ Page: https://www.cdc.gov/coronavirus/2019-ncov/faq.html\n\nDynamic infection and death counts are sourced from Johns Hopkins University via the following API: https://www.covid19api.com/\n\nDynamic news stories are sourced from Watson Discovery's news feed. Additional information on that service can be found here: https://www.ibm.com/watson/services/discovery-news/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "(#DataSource && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_8_1585238958758",
+      "previous_sibling": "node_11787"
+    },
+    {
+      "type": "standard",
+      "title": "Disinfecting Surfaces",
+      "output": {
+        "text": {
+          "values": [
+            "Clean and disinfect frequently touched surfaces such as tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks. If surfaces are dirty, clean them using detergent or soap and water prior to disinfection. To disinfect, most common EPA-registered household disinfectants will work."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#DisinfectingSurfaces && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11772",
+      "previous_sibling": "node_11771"
+    },
+    {
+      "type": "standard",
+      "title": "What is Quarantine",
+      "output": {
+        "text": {
+          "values": [
+            "Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease. Quarantine is usually established for the incubation period of the communicable disease, which is the span of time during which people have developed illness after exposure. For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#spreadinquarantine && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11756",
+      "previous_sibling": "node_11755"
+    },
+    {
+      "type": "standard",
+      "title": "Should I wear face masks?",
+      "output": {
+        "text": {
+          "values": [
+            "CDC does not recommend that people who are well wear a facemask to protect themselves from respiratory illnesses, including COVID-19. You should only wear a mask if a healthcare professional recommends it. A facemask should be used by people who have COVID-19 and are showing symptoms. This is to protect others from the risk of getting infected. The use of facemasks also is crucial for health workers and other people who are taking care of someone infected with COVID-19 in close settings (at home or in a health care facility)."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Wearingfacemasks && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11762",
+      "previous_sibling": "node_11761"
+    },
+    {
+      "type": "standard",
+      "title": "Family Preparation",
+      "output": {
+        "text": {
+          "values": [
+            "Create a household plan of action to help protect your health and the health of those you care about in the event of an outbreak of COVID-19 in your community: Talk with the people who need to be included in your plan, and discuss what to do if a COVID-19 outbreak occurs in your community Plan ways to care for those who might be at greater risk for serious complications, particularly older adults and those with severe chronic medical conditions like heart, lung or kidney disease. Make sure they have access to several weeks of medications and supplies in case you need to stay home for prolonged periods of time. Get to know your neighbors and find out if your neighborhood has a website or social media page to stay connected. Create a list of local organizations that you and your household can contact in the event you need access to information, healthcare services, support, and resources. Create an emergency contact list of family, friends, neighbors, carpool drivers, health care providers, teachers, employers, the local public health department, and other community resources."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#PrepareFamily && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11768",
+      "previous_sibling": "node_11767"
+    },
+    {
+      "type": "standard",
+      "title": "Symptoms of COVID19",
+      "output": {
+        "text": {
+          "values": [
+            "Current symptoms reported for patients with COVID-19 have included mild to severe respiratory illness with fever , cough, and difficulty breathing."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Symptoms && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11776",
+      "previous_sibling": "node_11775"
+    },
+    {
+      "type": "standard",
+      "title": "CDC Guidance and Response",
+      "output": {
+        "text": {
+          "values": [
+            "This is an emerging, rapidly evolving situation and CDC will continue to provide updated information as it becomes available. CDC works 24/7 to protect people’s health.  For CDC guidance please visit: https://www.cdc.gov/coronavirus/2019-nCoV/index.html"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#CDC_Response && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11782",
+      "previous_sibling": "node_11781"
+    },
+    {
+      "type": "standard",
+      "title": "Risk to Children",
+      "output": {
+        "text": {
+          "values": [
+            "Based on available evidence, children do not appear to be at higher risk for COVID-19 than adults. While some children and infants have been sick with COVID-19, adults make up most of the known cases to date. You can learn more about who is most at risk for health problems if they have COVID-19 infection on CDC’s current Risk Assessment page."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#RiskToChildren && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11764",
+      "previous_sibling": "node_11763"
+    },
+    {
+      "type": "standard",
+      "title": "Infected Family Member",
+      "output": {
+        "text": {
+          "values": [
+            "Most people who get COVID-19 will be able to recover at home. CDC has directions for people who are recovering at home and their caregivers, including: Stay home when you are sick, except to get medical care. If you develop emergency warning signs for COVID-19 get medical attention immediately . Emergency warning signs include: Trouble breathing, Persistent pain or pressure in the chest, New confusion or inability to arouse, Bluish lips or face.  This list is not all inclusive. Please consult your medical provider for any other symptoms that are severe or concerning. Use a separate room and bathroom for sick household members (if possible). Clean hands regularly by hand washing with soap and water or using an alcohol-based hand sanitizer with at least 60% alcohol. Provide your sick household member with clean disposable face masks to wear at home, if available, to help prevent spreading COVID-19 to others. Clean the sick room and bathroom , as needed, to avoid unnecessary contact with the sick person. Avoid sharing personal items like utensils, food, and drinks."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#InfectedFamilyMember && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11770",
+      "previous_sibling": "node_11769"
+    },
+    {
+      "type": "standard",
+      "title": "Person to Person Spread",
+      "output": {
+        "text": {
+          "values": [
+            "The virus that causes COVID-19 is spreading from person-to-person . Someone who is actively sick with COVID-19 can spread the illness to others. That is why CDC recommends that these patients be isolated either in the hospital or at home (depending on how sick they are) until they are better and no longer pose a risk of infecting others. How long someone is actively sick can vary so the decision on when to release someone from isolation is made on a case-by-case basis in consultation with doctors, infection prevention and control experts, and public health officials and involves considering specifics of each situation including disease severity, illness signs and symptoms, and results of laboratory testing for that patient. Current CDC guidance for when it is OK to release someone from isolation is made on a case by case basis and includes meeting all of the following requirements: The patient is free from fever without the use of fever-reducing medications. The patient is no longer showing symptoms, including cough. The patient has tested negative on at least two consecutive respiratory specimens collected at least 24 hours apart. Someone who has been released from isolation is not considered to pose a risk of infection to others."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#PersonToPerson && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11755",
+      "previous_sibling": "node_11754"
+    },
+    {
+      "type": "standard",
+      "title": "Corona Symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can tell you if you might be infected based on Corona symptoms."
+              },
+              {
+                "text": "Do you have fever?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#CoronaSymptoms",
+      "dialog_node": "node_10_1589882368667",
+      "previous_sibling": "node_10_1589882601095"
+    },
+    {
+      "type": "standard",
+      "title": "Risk to Pets",
+      "output": {
+        "text": {
+          "values": [
+            "While this virus seems to have emerged from an animal source, it is now spreading from person-to-person. There is no reason to think that any animals including pets in the United States might be a source of infection with this new coronavirus. To date, CDC has not received any reports of pets or other animals becoming sick with COVID-19. At this time, there is no evidence that companion animals including pets can spread COVID-19. However, since animals can spread other diseases to people, it’s always a good idea to wash your hands after being around animals."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#RiskToPets && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11783",
+      "previous_sibling": "node_11782"
+    },
+    {
+      "type": "standard",
+      "title": "Context Variable Cleanup",
+      "output": {
+        "deleted": "<? context.remove('location') ?> <? context.remove('data') ?> <? context.remove('summary') ?> <? context.remove('low_confidence') ?> <? context.remove('out_of_bounds') ?> <? context.remove('timezone') ?>",
+        "generic": []
+      },
+      "dialog_node": "node_10_1589882601095",
+      "previous_sibling": "node_8_1589897481931"
+    },
+    {
+      "type": "standard",
+      "title": "How does it Spread",
+      "output": {
+        "text": {
+          "values": [
+            "This virus was first detected in Wuhan City, Hubei Province, China. The first infections were linked to a live animal market, but the virus is now spreading from person-to-person. It’s important to note that person-to-person spread can happen on a continuum. Some viruses are highly contagious (like measles), while other viruses are less so. The virus that causes COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in some affected geographic areas. Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#HowDoesItSpread && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11753",
+      "previous_sibling": "node_11752"
+    },
+    {
+      "type": "standard",
+      "title": "Children and Face Masks",
+      "output": {
+        "text": {
+          "values": [
+            "If your child is healthy, there is no need for them to wear a facemask. Only people who have symptoms of illness or who are providing care to those who are ill should wear masks."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ChildrenAndFaceMasks && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11767",
+      "previous_sibling": "node_11766"
+    },
+    {
+      "type": "standard",
+      "title": "Guidance on going in to work",
+      "output": {
+        "text": {
+          "values": [
+            "Follow the advice of your local health officials. Stay home if you can. Talk to your employer to discuss working from home, taking leave if you or someone in your household gets sick with COVID-19 symptoms , or if your child’s school is dismissed temporarily. Employers should be aware that more employees may need to stay at home to care for sick children or other sick family members than is usual in case of a community outbreak."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ReportingToWork && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11775",
+      "previous_sibling": "node_11774"
+    },
+    {
+      "type": "standard",
+      "title": "Lockdown",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A lockdown is a situation in which people are not allowed to enter or leave a building or area freely because of an emergency."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Lockdown",
+      "dialog_node": "node_5_1589541450672",
+      "previous_sibling": "node_3_1589541877171"
+    },
+    {
+      "type": "standard",
+      "title": "Where did it originate?",
+      "output": {
+        "text": {
+          "values": [
+            "Coronaviruses are a large family of viruses. Some cause illness in people, and others, such as canine and feline coronaviruses, only infect animals. Rarely, animal coronaviruses that infect animals have emerged to infect people and can spread between people. This is suspected to have occurred for the virus that causes COVID-19. Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS) are two other examples of coronaviruses that originated from animals and then spread to people."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Wherediditstart && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11754",
+      "previous_sibling": "node_11753"
+    },
+    {
+      "type": "standard",
+      "title": "Hospital_Info",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have serious symptoms?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@hospital || #AboutHospitals",
+      "dialog_node": "node_10_1589955248771",
+      "previous_sibling": "node_10_1589882368667"
+    },
+    {
+      "type": "standard",
+      "title": "Phases",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The lockdown in India has been divided into four phases:"
+              },
+              {
+                "text": "Phase 1: 24th March - 14th April"
+              },
+              {
+                "text": "Phase 2: 14th April - 01st May"
+              },
+              {
+                "text": "Phase 3: 01st May - 17th May"
+              },
+              {
+                "text": "Phase 4: TBA"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Phases",
+      "dialog_node": "node_3_1589541877171",
+      "previous_sibling": "node_10_1589955248771"
+    },
+    {
+      "type": "standard",
+      "title": "Reduce Family Risk",
+      "output": {
+        "text": {
+          "values": [
+            "Practice everyday preventive actions to help reduce your risk of getting sick and remind everyone in your home to do the same. These actions are especially important for older adults and people who have severe chronic medical conditions: Avoid close contact with people who are sick. Cover your coughs and sneezes with a tissue and throw the tissue in the trash. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol. Always wash hands with soap and water if hands are visibly dirty. Clean and disinfect frequently touched surfaces and objects (e.g., tables, countertops, light switches, doorknobs, and cabinet handles)."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ReduceFamilyRisk && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11769",
+      "previous_sibling": "node_11768"
+    },
+    {
+      "type": "standard",
+      "title": "Can I attend funerals?",
+      "output": {
+        "text": {
+          "values": [
+            "There is currently no known risk associated with being in the same room at a funeral or visitation service with the body of someone who died of COVID-19."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#AttendingFuneral && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11781",
+      "previous_sibling": "node_11780"
+    },
+    {
+      "type": "standard",
+      "title": "Preparing and Calming Children",
+      "output": {
+        "text": {
+          "values": [
+            "Outbreaks can be stressful for adults and children. Talk with your children about the outbreak, try to stay calm, and reassure them that they are safe. If appropriate, explain to them that most illness from COVID-19 seems to be mild. Children respond differently to stressful situations than adults."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#PreparingChildren && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11773",
+      "previous_sibling": "node_11772"
+    },
+    {
+      "type": "standard",
+      "title": "Community Spread",
+      "output": {
+        "text": {
+          "values": [
+            "Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#CommunitySpread && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11759",
+      "previous_sibling": "node_11758"
+    },
+    {
+      "type": "standard",
+      "title": "Health Dept Recommended Actions",
+      "output": {
+        "text": {
+          "values": [
+            "For recommendations and guidance on persons under investigation; infection control, including personal protective equipment guidance; home care and isolation; and case investigation, ask this chatbot about Information for Healthcare Professionals . For information on specimen collection and shipment, ask this chatbot about Information for Laboratories. For information for public health professional on COVID-19, ask this chatbot about Information for Public Health Professionals."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#HealthDeptRecommendedActions && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11780",
+      "previous_sibling": "node_11779"
+    },
+    {
+      "type": "folder",
+      "title": "api",
+      "dialog_node": "node_4_1585096044203",
+      "previous_sibling": "node_11791"
+    },
+    {
+      "type": "standard",
+      "title": "Vaccine",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When a disease is new, there is no vaccine until one is developed. It can take a number of years for a new vaccine to be developed. Covid-19 is new to mankind and it'll take some time until a vaccine is developed although some of the research works show promising progress. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Vaccine",
+      "dialog_node": "node_6_1589897387866",
+      "previous_sibling": "node_3_1589915554404"
+    },
+    {
+      "type": "standard",
+      "title": "What is Covid19?",
+      "output": {
+        "text": {
+          "values": [
+            "A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold. A diagnosis with coronavirus 229E, NL63, OC43, or HKU1 is not the same as a COVID-19 diagnosis. Patients with COVID-19 will be evaluated and cared for differently than patients with common coronavirus diagnosis."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#WhatisCovid && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11751",
+      "previous_sibling": "node_2_1584976214871"
+    },
+    {
+      "type": "standard",
+      "title": "#Set confidence thresholds",
+      "output": {},
+      "context": {
+        "out_of_bounds": 0.2,
+        "low_confidence": 0.45
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11789"
+      },
+      "conditions": "conversation_start",
+      "dialog_node": "node_11788",
+      "previous_sibling": "node_5_1589541450672"
+    },
+    {
+      "type": "standard",
+      "title": "Products and Packages from China",
+      "output": {
+        "text": {
+          "values": [
+            "There is still a lot that is unknown about the newly emerged COVID-19 and how it spreads. Two other coronaviruses have emerged previously to cause severe illness in people (MERS-CoV and SARS-CoV). The virus that causes COVID-19 is more genetically related to SARS-CoV than MERS-CoV, but both are betacoronaviruses with their origins in bats. While we don’t know for sure that this virus will behave the same way as SARS-CoV and MERS-CoV, we can use the information gained from both of these earlier coronaviruses to guide us. In general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from products or packaging that are shipped over a period of days or weeks at ambient temperatures. Coronaviruses are generally thought to be spread most often by respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with imported goods and there have not been any cases of COVID-19 in the United States associated with imported goods. Information will be provided on the Coronavirus Disease 2019 (COVID-19) website as it becomes available."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ProductsFromChina && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11763",
+      "previous_sibling": "node_11762"
+    },
+    {
+      "type": "standard",
+      "title": "What symptoms are shown in Children?",
+      "output": {
+        "text": {
+          "values": [
+            "The symptoms of COVID-19 are similar in children and adults. However, children with confirmed COVID-19 have generally presented with mild symptoms. Reported symptoms in children include cold-like symptoms, such as fever, runny nose, and cough. Vomiting and diarrhea have also been reported. It’s not known yet whether some children may be at higher risk for severe illness, for example, children with underlying medical conditions and special healthcare needs. There is much more to be learned about how the disease impacts children."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Symptomsinchildren && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11766",
+      "previous_sibling": "node_11765"
+    },
+    {
+      "type": "standard",
+      "title": "Advice on Home Schooling",
+      "output": {
+        "text": {
+          "values": [
+            "Stay in touch with your child’s school. Many schools are adapting in-person lessons to online or virtual learning. Review assignments from the school, and help your child establish a reasonable pace for completing the work. You may need to assist your child with turning on devices, reading instructions, and typing answers. Communicate challenges to your school. If you face technology or connectivity issues, or if your child is having a hard time completing assignments, let the school know. Create a schedule and routine for learning at home, but remain flexible. Have consistent bedtimes and get up at the same time, Monday through Friday. Structure the day for learning, free time, healthy meals and snacks, and physical activity. Allow flexibility in the schedule—it’s okay to adapt based on your day. Consider the needs and adjustment required for your child’s age group. The transition to being at home will be different for preschoolers, K-5, middle school students, and high school students. Talk to your child about expectations and how they are adjusting to being at home versus at school. Consider ways your child can stay connected with their friends without spending time in person. Look for ways to make learning fun. Have hands-on activities, like puzzles, painting, drawing, and making things. Independent play can also be used in place of structured learning. Encourage children to build a fort from sheets or practice counting by stacking blocks. Practice handwriting and grammar by writing letters to family members. This is a great way to connect and limit face-to-face contact. Start a journal with your child to document this time and discuss the shared experience. Use audio books or see if your local library is hosting virtual or live-streamed reading events."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Schoolfromhome && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11786",
+      "previous_sibling": "node_11785"
+    },
+    {
+      "type": "standard",
+      "title": "Can it spread via food?",
+      "output": {
+        "text": {
+          "values": [
+            "Coronaviruses are generally thought to be spread from person-to-person through respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with food. Before preparing or eating food it is important to always wash your hands with soap and water for 20 seconds for general food safety. Throughout the day wash your hands after blowing your nose, coughing or sneezing, or going to the bathroom. In general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from food products or packaging that are shipped over a period of days or weeks at ambient, refrigerated, or frozen temperatures.  "
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#spreadviafood && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11757",
+      "previous_sibling": "node_11756"
+    },
+    {
+      "type": "standard",
+      "title": "Child socialization",
+      "output": {
+        "text": {
+          "values": [
+            "The key to slowing the spread of COVID-19 is to limit social interactions as much as possible. Parents should minimize play dates, and if held, parents should keep the groups small. Advise older children to hang out in a small group and to meet up outside rather than inside. It’s easier to keep and maintain space between others in outdoor settings, like parks. If you have small meetups, consider hanging out with another family or friend who is also taking extra measures to put distance between themselves and others (i.e. social distancing). Make sure children practice everyday preventive behaviors , such as cleaning and then disinfecting frequently touched surfaces. Remember, if children meet outside of school in bigger groups, it can put everyone at risk. This includes spring break and other group travel. Parents should help their older children revise spring break plans that included non-essential travel to crowded areas. Information about COVID-19 in children is somewhat limited, but current data suggest children with COVID-19 may show only mild symptoms. However, they can still pass this virus onto others who may be at higher risk, including older adults and people who have serious chronic medical conditions"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ChildrenSocializing && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11785",
+      "previous_sibling": "node_11784"
+    },
+    {
+      "type": "standard",
+      "title": "Protecting Children from COVID",
+      "output": {
+        "text": {
+          "values": [
+            "You can encourage your child to help stop the spread of COVID-19 by teaching them to do the same things everyone should do to stay healthy. Clean hands often using soap and water or alcohol-based hand sanitizer Avoid people who are sick (coughing and sneezing) Clean and disinfect high-touch surfaces daily in household common areas (e.g. tables, hard-backed chairs, doorknobs, light switches, remotes, handles, desks, toilets, sinks) Launder items including washable plush toys as appropriate in accordance with the manufacturer’s instructions. If possible, launder items using the warmest appropriate water setting for the items and dry items completely. Dirty laundry from an ill person can be washed with other people’s items. You can find additional information on preventing COVID-19 at Prevention for 2019 Novel Coronavirus and at Preventing COVID-19 Spread in Communities . Additional information on how COVID-19 is spread is available by asking How COVID-19 Spreads"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ProtectingChildren && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11765",
+      "previous_sibling": "node_11764"
+    },
+    {
+      "type": "standard",
+      "title": "Latest News on Covid19",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#News_Corona_Virus",
+      "dialog_node": "node_2_1584976214871",
+      "previous_sibling": "node_4_1585096044203"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "text": {
+          "values": [
+            "Farewell!",
+            "Take Care",
+            "Stay Safe Out There",
+            "Adios Amigo!"
+          ],
+          "selection_policy": "random"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "#goodbyes && intents[0].confidence > 0.95",
+      "dialog_node": "node_11791",
+      "previous_sibling": "node_11748"
+    },
+    {
+      "type": "standard",
+      "title": "Naming of Virus",
+      "output": {
+        "text": {
+          "values": [
+            "On February 11, 2020 the World Health Organization announced an official name for the disease that is causing the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”. There are many types of human coronaviruses including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused be a novel (or new) coronavirus that has not previously been seen in humans. The name of this disease was selected following the World Health Organization (WHO) best practice for naming of new human infectious diseases."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Whythename && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11752",
+      "previous_sibling": "node_11751"
+    },
+    {
+      "type": "standard",
+      "title": "Higher Risk Populations",
+      "output": {
+        "text": {
+          "values": [
+            "Older adults and people of any age who have serious underlying medical conditions may be at higher risk for more serious complications from COVID-19. Based upon available information to date, those most at risk include People 65 years and older, People who live in a nursing home or long-term care facility, People of any age with the following underlying medical conditions, particularly those that are not well controlled, Chronic lung disease or asthma, Congestive heart failure or coronary artery disease, Diabetes, Neurological conditions that weaken ability to cough, Weakened immune system, Chemotherapy or radiation for cancer (currently or in recent past), Sickle cell anemia, Chronic kidney disease requiring dialysis, Cirrhosis of the liver, Lack of spleen or a spleen that doesn’t function correctly, Extreme obesity (body mass index [BMI] > 40), People who are pregnant."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#HigherRiskPopulations && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11761",
+      "previous_sibling": "node_11759"
+    },
+    {
+      "type": "standard",
+      "title": "Testing Information",
+      "output": {
+        "text": {
+          "values": [
+            "If you develop symptoms such as fever, cough, and/or difficulty breathing, and have been in close contact with a person known to have COVID-19 or have recently traveled from an area with ongoing spread of COVID-19, stay home and call your healthcare provider. Older patients and individuals who have severe underlying medical conditions or are immuno compromised should contact their healthcare provider early, even if their illness is mild. If you have severe symptoms, such as persistent pain or pressure in the chest, new confusion or inability to arouse, or bluish lips of face, contact your healthcare provider or emergency room and seek care immediately. Your doctor will determine if you have signs and symptoms of COVID-19 and whether you should be tested."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Testing && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11777",
+      "previous_sibling": "node_11776"
+    },
+    {
+      "type": "standard",
+      "title": "node_11749",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_11749",
+      "previous_sibling": "node_11750"
+    },
+    {
+      "type": "standard",
+      "title": "Student and School Meals",
+      "output": {
+        "text": {
+          "values": [
+            "Check with your school on plans to continue meal services during the school dismissal. Many schools are keeping school facilities open to allow families to pick up meals or are providing grab-and-go meals at a central location."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#MealsForStudents && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11787",
+      "previous_sibling": "node_11786"
+    },
+    {
+      "type": "standard",
+      "title": "Negative Test Result Considerations",
+      "output": {
+        "text": {
+          "values": [
+            "Using the CDC-developed diagnostic test, a negative result means that the virus that causes COVID-19 was not found in the person’s sample. In the early stages of infection, it is possible the virus will not be detected. For COVID-19, a negative test result for a sample collected while a person has symptoms likely means that the COVID-19 virus is not causing their current illness."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#NegativeTestResults && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11778",
+      "previous_sibling": "node_11777"
+    },
+    {
+      "type": "standard",
+      "title": "Animal Contact",
+      "output": {
+        "text": {
+          "values": [
+            "You should restrict contact with pets and other animals while you are sick with COVID-19, just like you would around other people. Although there have not been reports of pets or other animals becoming sick with COVID-19, it is still recommended that people sick with COVID-19 limit contact with animals until more information is known about the virus. When possible, have another member of your household care for your animals while you are sick. If you are sick with COVID-19, avoid contact with your pet, including petting, snuggling, being kissed or licked, and sharing food. If you must care for your pet or be around animals while you are sick, wash your hands before and after you interact with pets and wear a face mask."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#AnimalContact && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11784",
+      "previous_sibling": "node_11783"
+    },
+    {
+      "type": "standard",
+      "title": "Handwashing tips and Guidance",
+      "output": {
+        "text": {
+          "values": [
+            "Hand washing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#HandwashingTips && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11771",
+      "previous_sibling": "node_11770"
+    },
+    {
+      "type": "frame",
+      "title": "Covid-19 Helpline Numbers India",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "helpline",
+            "location": "$location"
+          },
+          "result_variable": "data"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1589882601095"
+      },
+      "conditions": "#Corona_Helpline",
+      "dialog_node": "node_3_1589915554404"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "United Kingdom"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "enabled": false,
+      "randomize": true,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above."
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": true,
+  "name": "CDC COVID FAQ",
+  "language": "en",
+  "description": ""
+}
