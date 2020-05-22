@@ -2,9 +2,9 @@
 This project provides an insight to the chatbot created to provide solution for Covid-19 Crisis.
 
 ## Authors
-- [Aditi Deepak] - Team Leader
-- [Devendra Singhi]
-- [Harshit Harsh]
+- [Aditi Deepak](aditi.dpk17@gmail.com) - Team Leader
+- [Devendra Singhi](singhidevendra0298@gmail.com)
+- [Harshit Harsh](hharshit27@gmail.com)
 
 ## Overview
 
