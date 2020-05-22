@@ -33,7 +33,7 @@ It can:
 
 ### Slack integration with COVID-19 crisis communication chatbot
 
-![Crisis Comms Architecture diagram](/images/Crisis-Comms-Architecture-Slack-Integration.png)
+![Crisis Comms Architecture diagram](https://raw.githubusercontent.com/Call-for-Code/Solution-Starter-Kit-Communication-2020/master/images/Crisis-Comms-Architecture-Nodejs-WebServer.png)
 
 1. User invokes a COVID-19 Slack integration chatbot app and asks a question.
 2. Slack app calls the Watson Assistant service hosted in IBM Cloud.
