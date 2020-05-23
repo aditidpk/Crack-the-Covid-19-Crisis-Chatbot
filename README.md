@@ -74,8 +74,11 @@ It can:
 - Search for function in the upper right search bar as before, then drag and drop 2 function nodes. Name your function nodes Prepare1 and Prepare2.
 - Content of the function nodes:
 - Finally, your Nodes should look like the one below:
+![Image](https://github.com/aditidpk/Crack-the-Covid-19-Crisis-Chatbot/blob/master/Screenshot%20(196).png)
 - Click on Deploy button in the upper right, then test your application on Telegram.
 - The bot can be accessed by searching for Almeida27 on Telegram app.
+
+![Image2](https://github.com/aditidpk/Crack-the-Covid-19-Crisis-Chatbot/blob/master/Screenshot%20(197).png)
 
 ## Documents
 
