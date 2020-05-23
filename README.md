@@ -32,11 +32,11 @@ It can:
 - Check for symptoms in the users and predict if they could be possibly infected with Corona Virus
 - Provides information on Covid-19 hospitals located in different states of India and different helpline numbers.
 
-### Slack integration with COVID-19 crisis communication chatbot
+### Integration of Medic and Telegram with Node-RED
 
 ![Crisis Comms Architecture diagram](https://raw.githubusercontent.com/Call-for-Code/Solution-Starter-Kit-Communication-2020/master/images/Crisis-Comms-Architecture-Nodejs-WebServer.png)
 
-1. User invokes a COVID-19 Slack integration chatbot app and asks a question.
+1. User invokes a COVID-19 Telegram integration chatbot app and asks a question.
 2. Slack app calls the Watson Assistant service hosted in IBM Cloud.
 3. Watson Assistant uses natural language understanding and machine learning to extract entities and intents of the user question.
 4. Source COVID-19 FAQ information from trusted CDC data
@@ -48,7 +48,7 @@ It can:
 10. Watson Assistant replies to the Slack application.
 11. Slack app displays the chat answer to the user.
 
-The invite link to the Slack workspace: https://join.slack.com/t/crackcovid19-watson/shared_invite/zt-epg5ln4h-SE7kLoKkTOtvLoLsiyUHMg
+The bot can be accessed by searching for Almeida27 on Telegram app.
 
 ## Documents
 
