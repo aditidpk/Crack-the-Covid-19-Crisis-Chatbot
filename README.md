@@ -34,9 +34,9 @@ It can:
 
 ### Integration of Medic and Telegram with Node-RED
 
-![Image_1](blob:https://web.whatsapp.com/4b211ed3-4796-4bcb-a885-eace99f21234)
+![Image_1](https://github.com/aditidpk/Crack-the-Covid-19-Crisis-Chatbot/blob/master/WhatsApp%20Image%202020-05-23%20at%208.08.48%20PM%20(1).jpeg)
 
-
+![Image_2](https://github.com/aditidpk/Crack-the-Covid-19-Crisis-Chatbot/blob/master/WhatsApp%20Image%202020-05-23%20at%208.08.48%20PM.jpeg)
 
 The bot can be accessed by searching for Almeida27 on Telegram app.
 
