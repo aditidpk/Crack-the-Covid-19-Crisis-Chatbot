@@ -78,7 +78,7 @@ It can:
 - Click on Deploy button in the upper right, then test your application on Telegram.
 - The bot can be accessed by searching for Almeida27 on Telegram app.
 
-![Image2](https://github.com/aditidpk/Crack-the-Covid-19-Crisis-Chatbot/blob/master/Screenshot%20(197).png)
+![Image2](https://github.com/aditidpk/Crack-the-Covid-19-Crisis-Chatbot/blob/master/Screenshot%20(198).png)
 
 ## Documents
 
