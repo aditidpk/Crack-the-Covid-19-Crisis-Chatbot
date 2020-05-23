@@ -34,8 +34,8 @@ It can:
 
 ### Integration of Medic and Telegram with Node-RED
 
-![Crisis Comms Architecture diagram](https://raw.githubusercontent.com/Call-for-Code/Solution-Starter-Kit-Communication-2020/master/images/Crisis-Comms-Architecture-Nodejs-WebServer.png)
-
+(blob:https://web.whatsapp.com/152c4ff2-a7cd-4585-a314-1e6eb03ece7e)
+(blob:https://web.whatsapp.com/21c9df3b-b1b7-45d5-a4c7-4a8260bc0d11)
 
 
 The bot can be accessed by searching for Almeida27 on Telegram app.
