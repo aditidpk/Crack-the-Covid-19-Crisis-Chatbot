@@ -36,17 +36,7 @@ It can:
 
 ![Crisis Comms Architecture diagram](https://raw.githubusercontent.com/Call-for-Code/Solution-Starter-Kit-Communication-2020/master/images/Crisis-Comms-Architecture-Nodejs-WebServer.png)
 
-1. User invokes a COVID-19 Telegram integration chatbot app and asks a question.
-2. Slack app calls the Watson Assistant service hosted in IBM Cloud.
-3. Watson Assistant uses natural language understanding and machine learning to extract entities and intents of the user question.
-4. Source COVID-19 FAQ information from trusted CDC data
-5. Watson Assistant invokes an OpenWhisk open source powered IBM Cloud Function.
-6. IBM Cloud Function calls the Watson Discovery service running in IBM Cloud.
-7. Watson Discovery scans news articles and responds with relevant articles.
-8. Watson Assistant invokes an OpenWhisk open source powered IBM Cloud Function.
-9. IBM Cloud Function calls the COVID-19 API to get statistics.
-10. Watson Assistant replies to the Slack application.
-11. Slack app displays the chat answer to the user.
+
 
 The bot can be accessed by searching for Almeida27 on Telegram app.
 
