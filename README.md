@@ -34,7 +34,7 @@ It can:
 
 ### Integration of Medic and Telegram with Node-RED
 
-(https://web.whatsapp.com/152c4ff2-a7cd-4585-a314-1e6eb03ece7e)
+(C:\Users\HP\Desktop)
 (https://web.whatsapp.com/21c9df3b-b1b7-45d5-a4c7-4a8260bc0d11)
 
 
