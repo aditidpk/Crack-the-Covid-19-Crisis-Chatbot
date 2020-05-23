@@ -55,6 +55,8 @@ The invite link to the Slack workspace: https://join.slack.com/t/crackcovid19-wa
 ### Trusted sources for COVID-19 information
 - [CDC COVID-19 FAQ](https://www.cdc.gov/coronavirus/2019-ncov/faq.html)
 - https://www.mohfw.gov.in/#
+- https://covid-19india-api.herokuapp.com/v2.0/helpline_numbers
+- https://api.rootnet.in/covid19-in/stats/latest
 
 ## Datasets
 - [covid19api](https://covid19api.com/)
@@ -66,6 +68,8 @@ The invite link to the Slack workspace: https://join.slack.com/t/crackcovid19-wa
 - [IBM Watson Assistant](https://www.ibm.com/cloud/watson-assistant/)
 - [Watson Discovery](https://www.ibm.com/cloud/watson-discovery)
 - [IBM Cloud Functions](https://cloud.ibm.com/functions/)
+- [Continuous Delivery](https://cloud.ibm.com/services/continuous-delivery/)
+- [Node-RED](https://cloud.ibm.com/developer/appservice/apps)
 
 ### Open source technology
 - [Node.js](https://nodejs.org/en/)
@@ -75,7 +79,7 @@ Medic is populated with data that is sourced from the following resources:
 
 - Most static responses provide information found on the CDC's COVID FAQ Page: https://www.cdc.gov/coronavirus/2019-ncov/faq.html
 - Dynamic infection and death counts are sourced from Johns Hopkins University via the following API: https://www.covid19api.com/
-- Dynamic infection and death counts(India) are sourced from Ministry of Health and Family Welfare Page:https://www.mohfw.gov.in/#
-- Dynamic news stories are sourced from Watson Discovery's news feed. Additional information on that service can be found here: https://www.ibm.com/watson/services/discovery-news/
+- Dynamic infection and death counts of Indian states are sourced from Ministry of Health and Family Welfare Page: https://api.rootnet.in/covid19-in/stats/latest
+- Helpline numbers for Indian States Page: https://covid-19india-api.herokuapp.com/v2.0/helpline_numbers
 
 
