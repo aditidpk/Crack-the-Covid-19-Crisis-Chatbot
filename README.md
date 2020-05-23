@@ -60,6 +60,7 @@ The bot can be accessed by searching for Almeida27 on Telegram app.
 
 ## Datasets
 - [covid19api](https://covid19api.com/)
+- [covid19_stats_indian_states](https://api.rootnet.in/covid19-in/stats/latest)
 
 ## Technology
 
