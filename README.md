@@ -19,6 +19,10 @@ Medic can help address the issues that our users face while trying to gather acc
 Medic also identifies symptoms based on user response and tells them if they could be infected or not. It provides a dynamic count of patients in India and around the world. It also gives news updates related to Covid-19 from various sources. 
 Medic has a database for various hospitals in India that provide treatment for Covid-19 and recommends them to the user based on the states/zones.
 
+## Video
+
+[![Crack the Covid-19 Crisis - Medic Chatbot](https://i9.ytimg.com/vi/PicTEpzLEoY/mqdefault.jpg?time=1590246196217&sqp=CPD0pPYF&rs=AOn4CLDIwturHbmG02UvninFjmaI_iSREQ)](https://www.youtube.com/watch?v=PicTEpzLEoY)
+
 ## The idea
 COVID-19 has citizens looking for answers about symptoms and testing sites as well as current status of schools, transportation, and other public services.Medic a virtual assistant pre-loaded to understand and respond to common questions about COVID-19, scan COVID-19 news articles using Watson Discovery and respond to COVID statistics inquires with data from trusted sources.
 
@@ -39,6 +43,7 @@ It can:
 - Set a name.
 - Set a username.
 - Save the access token for future use.
+
 ## Creating Assistant Service:
 - Login to your IBM Cloud account and go to the link provided in the Prerequisites section for Watson Assistant service.
 - Set your service name (should be an unique name), then click Create.
@@ -49,6 +54,7 @@ It can:
 - After creating intents go to the Dialog tab and click Create to create a dialog.
 - Welcome and Anything else nodes come by default. The Welcome node is for the opening message, the Anything else node is for the unhandled text input.
 - Now you can test your chat bot by clicking the upper right conversation icon.
+
 ## Creating and Configuring Node-RED instance:
 - Create an instance of Node-RED and name the instance as you want then create it. It can take up to 5 minutes for the instance to be ready.
 - When you see the Running state click on Visit App URL.
@@ -67,23 +73,8 @@ It can:
 - We need 2 function nodes for preparing the message object in Json format. One is for preparing the message before sending it to the conversation node. The other one is for preparing the message before sending it to the Telegram sender node.
 - Search for function in the upper right search bar as before, then drag and drop 2 function nodes. Name your function nodes Prepare1 and Prepare2.
 - Content of the function nodes:
-
-
-
-
 - Finally, your Nodes should look like the one below:
-
-
-
 - Click on Deploy button in the upper right, then test your application on Telegram.
-
-
-
-
-
-
-
-
 - The bot can be accessed by searching for Almeida27 on Telegram app.
 
 ## Documents
