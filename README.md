@@ -21,7 +21,7 @@ Medic has a database for various hospitals in India that provide treatment for C
 
 ## Video
 
-[![Crack the Covid-19 Crisis - Medic Chatbot](https://i9.ytimg.com/vi/PicTEpzLEoY/mqdefault.jpg?time=1590246196217&sqp=CPD0pPYF&rs=AOn4CLDIwturHbmG02UvninFjmaI_iSREQ)](https://www.youtube.com/watch?v=PicTEpzLEoY)
+[![Crack the Covid-19 Crisis - Medic Chatbot](https://i9.ytimg.com/vi/PicTEpzLEoY/mqdefault.jpg?time=1590298949785&sqp=CLCRqPYF&rs=AOn4CLAfkYZm0d-O63qMad89uN10wZvlLQ)](https://www.youtube.com/watch?v=PicTEpzLEoY)
 
 ## The idea
 COVID-19 has citizens looking for answers about symptoms and testing sites as well as current status of schools, transportation, and other public services.Medic a virtual assistant pre-loaded to understand and respond to common questions about COVID-19, scan COVID-19 news articles using Watson Discovery and respond to COVID statistics inquires with data from trusted sources.
