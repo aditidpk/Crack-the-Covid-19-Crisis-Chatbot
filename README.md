@@ -72,7 +72,6 @@ It can:
 - After making the connection go back to your Node-RED interface and search for conversation in the search bar in the upper left corner. After finding the conversation node just drag and drop it.
 - We need 2 function nodes for preparing the message object in Json format. One is for preparing the message before sending it to the conversation node. The other one is for preparing the message before sending it to the Telegram sender node.
 - Search for function in the upper right search bar as before, then drag and drop 2 function nodes. Name your function nodes Prepare1 and Prepare2.
-- Content of the function nodes:
 - Finally, your Nodes should look like the one below:
 ![Image](https://github.com/aditidpk/Crack-the-Covid-19-Crisis-Chatbot/blob/master/Screenshot%20(196).png)
 - Click on Deploy button in the upper right, then test your application on Telegram.
