@@ -15,8 +15,8 @@ When a new disease emerges, communication systems are one of the first systems t
 ### How can technology help?
 Whether via text, phone, websites, or communication apps, conversing with chatbots and other AI-enabled resources can play a critical role in helping communities quickly understand crucial information and free up customer service resources to focus on higher-level issues.
 Therefore we have come up with a chatbot called "Medic" which addresses frequently asked questions related to the crisis and tries to provide answers to them.
-Medic can help address the issues that our users face while trying to gather accurate, relevant information. Whether you're trying to learn the latest news about Covid-19 or learn where there's testing in your area, Medic can play a major role in helping communities quickly understand crucial information and free up customer service resources to focus on higher-level issues.
-Medic also identifies symptoms based on user response and tells them if they could be infected or not. It provides a dynamic count of patients in India and around the world. It also gives news updates related to Covid-19 from various sources. 
+Medic can help address the issues that our users face while trying to gather accurate, relevant information. Whether you're trying to learn the latest news about Covid-19 or learn where there's testing in your area, Medic is pre-loaded to understand and respond to common questions about COVID-19 with data from trusted sources.
+Medic also identifies symptoms based on user response and tells them if they could be infected or not. It provides a dynamic count of patients in India and around the world.
 Medic has a database for various hospitals in India that provide treatment for Covid-19 and recommends them to the user based on the states/zones.
 
 ## Video
@@ -26,7 +26,7 @@ Medic has a database for various hospitals in India that provide treatment for C
 ## The idea
 COVID-19 has citizens looking for answers about symptoms and testing sites as well as current status of schools, transportation, and other public services.Medic a virtual assistant pre-loaded to understand and respond to common questions about COVID-19, scan COVID-19 news articles using Watson Discovery and respond to COVID statistics inquires with data from trusted sources.
 
-Medic is integrated to an IBM Cloud hosted web server by using Telegram Integration
+Medic is integrated to an IBM Cloud hosted web server by using Telegram Integration.
 
 It can:
 - Respond by sharing consistent, accurate COVID-19 information
