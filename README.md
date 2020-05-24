@@ -26,7 +26,7 @@ Medic has a database for various hospitals in India that provide treatment for C
 ## The idea
 COVID-19 has citizens looking for answers about symptoms and testing sites as well as current status of schools, transportation, and other public services.Medic a virtual assistant pre-loaded to understand and respond to common questions about COVID-19, scan COVID-19 news articles using Watson Discovery and respond to COVID statistics inquires with data from trusted sources.
 
-Medic is integrated to an IBM Cloud hosted web server by using Slack Integration
+Medic is integrated to an IBM Cloud hosted web server by using Telegram Integration
 
 It can:
 - Respond by sharing consistent, accurate COVID-19 information
@@ -54,7 +54,7 @@ It can:
 - After creating intents go to the Dialog tab and click Create to create a dialog.
 - Welcome and Anything else nodes come by default. The Welcome node is for the opening message, the Anything else node is for the unhandled text input.
 - Now you can test your chat bot by clicking the upper right conversation icon.
-
+- We can add as much entities and intents as required, also with the help of webhooks we can even connect to different API's for dynamic data like number of cases in a country or any indian state.
 ## Creating and Configuring Node-RED instance:
 - Create an instance of Node-RED and name the instance as you want then create it. It can take up to 5 minutes for the instance to be ready.
 - When you see the Running state click on Visit App URL.
